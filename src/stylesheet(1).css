@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SVN-Graphik';
+    src: url('SVN-Graphik.woff2') format('woff2'),
+        url('SVN-Graphik.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
