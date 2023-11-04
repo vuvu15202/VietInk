@@ -109,7 +109,8 @@
 .desktopMenu_rootMenu__xwQXI .desktopMenu_main__xTUfJ .desktopMenu_bodyMenu__q3gkd .desktopMenu_menuBoxOne__N2FcI .desktopMenu_itemMenu__gs0tk {
     padding: 0
 }
-
+.desktopMenu_menuBoxOne__N2FcI{margin-top: 50px;
+}
 .desktopMenu_rootMenu__xwQXI .desktopMenu_main__xTUfJ .desktopMenu_bodyMenuChild__iuslP {
     background-color: red
 }
@@ -3485,8 +3486,8 @@
     }
 
     .header_mainMenu___HGki .header_menu__cDNP_ .header_logo__d4jIK {
-        width: 250px;
-        height: 85px
+        width: 90px;
+        height: 65px
     }
 
     .header_mainMenu___HGki .header_menu__cDNP_ .header_iconSearchAndCountCart__EtGUA .header_iconSearch__gecI_ {
