@@ -57,9 +57,9 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                 <div class="form-group col-sm-4">
-
+                    @*id="file" name="file" accept=".xlsx, .xls" *@
                     <input asp-for="@Model.FileUploads"
-                            type="file" id="file" name="file" accept=".xlsx, .xls" />
+                            type="file" />
                 </div>
                 <div class="form-group col-sm-4">
                     <input type="submit" value="Import Excel" class="btn btn-primary" />
