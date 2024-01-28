@@ -1,0 +1,1973 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\VietInkWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VietInkWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\ProductImages\\1.png",
+      "PackagePath": "staticwebassets\\ProductImages\\1.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\ProductImages\\LOGO.png",
+      "PackagePath": "staticwebassets\\ProductImages\\LOGO.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\ProductImages\\foreach.png",
+      "PackagePath": "staticwebassets\\ProductImages\\foreach.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\334.latest.en.cdef91a6da3671b6431b.css",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\334.latest.en.cdef91a6da3671b6431b.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\74.latest.en.c8c63ec740052d5494b3.css",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\74.latest.en.c8c63ec740052d5494b3.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\958.latest.en.3388a58cacfe5a93e981.css",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\958.latest.en.3388a58cacfe5a93e981.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\app.latest.en.e5a7f63ca146c0549466.css",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\app.latest.en.e5a7f63ca146c0549466.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\base.css",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\base.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\150.latest.en.ddc10927ad5c786fc8fb.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\150.latest.en.ddc10927ad5c786fc8fb.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\283.latest.en.93337359cb8d3a49b3f0.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\283.latest.en.93337359cb8d3a49b3f0.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\334.latest.en.542825689c18403c43d5.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\334.latest.en.542825689c18403c43d5.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\385007996693303",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\731.latest.en.13d4de92b88330e8fea9.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\731.latest.en.13d4de92b88330e8fea9.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\844.latest.en.7fcd45ae446a9a5574e8.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\844.latest.en.7fcd45ae446a9a5574e8.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\924.latest.en.b141ec65479139ebf4a1.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\924.latest.en.b141ec65479139ebf4a1.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\958.latest.en.0a32e65bbeeffe7bac95.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\958.latest.en.0a32e65bbeeffe7bac95.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\965.latest.en.9342f8bb207e3ea2721d.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\965.latest.en.9342f8bb207e3ea2721d.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\OnePage.latest.en.77e80fc8eeae7f820c25.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\OnePage.latest.en.77e80fc8eeae7f820c25.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\Square_Logo_x320.png",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\Square_Logo_x320.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\Z2NwLWFzaWEtc291dGhlYXN0MTowMUhNSzZBNjQ4NkVENE5DRFFRRjJQOUozWQ.html",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\Z2NwLWFzaWEtc291dGhlYXN0MTowMUhNSzZBNjQ4NkVENE5DRFFRRjJQOUozWQ.html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\app.latest.en.868b7d2e28edd6b0940c.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\app.latest.en.868b7d2e28edd6b0940c.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\autocomplete-sandbox.latest.en.bbc371d5e9b4a7d1b3a8.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\autocomplete-sandbox.latest.en.bbc371d5e9b4a7d1b3a8.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\b9945bf9fw9f0493d3pc3794183m37925d68m.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\b9945bf9fw9f0493d3pc3794183m37925d68m.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\card_fields.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\card_fields.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\checkout_one_web_autocomplete.html",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\checkout_one_web_autocomplete.html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\events.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\events.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\fbevents.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\fbevents.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\identify_55404.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\identify_55404.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\js",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\main.MTc3MGUxMzJiMg.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\main.MTc3MGUxMzJiMg.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\runtime.latest.en.0d8f1a89012492a779ef.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\runtime.latest.en.0d8f1a89012492a779ef.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\runtime.latest.en.0e05185078acda232fb9.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\runtime.latest.en.0e05185078acda232fb9.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\saved_resource(1).html",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\saved_resource(1).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\saved_resource(2).html",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\saved_resource(2).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\saved_resource(3).html",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\saved_resource(3).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\saved_resource.html",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\saved_resource.html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\bin\\trekkie.storefront.min.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\bin\\trekkie.storefront.min.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Checkout\\pixelcroc1_64x64.jpg",
+      "PackagePath": "staticwebassets\\assets\\Checkout\\pixelcroc1_64x64.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\4Zu8isFZYHr.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\4Zu8isFZYHr.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\GSwcapvLrEq.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\GSwcapvLrEq.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\XaRr_Gkp-Na.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\XaRr_Gkp-Na.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\animations.js",
+      "PackagePath": "staticwebassets\\assets\\Contact\\animations.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\base.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\base.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\cart-notification.js",
+      "PackagePath": "staticwebassets\\assets\\Contact\\cart-notification.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-cart-items.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-cart-items.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-cart-notification.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-cart-notification.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-list-menu.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-list-menu.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-list-payment.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-list-payment.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-list-social.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-list-social.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-loading-overlay.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-loading-overlay.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-menu-drawer.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-menu-drawer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-newsletter.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-newsletter.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-predictive-search.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-predictive-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-price.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-price.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\component-search.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\component-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\details-disclosure.js",
+      "PackagePath": "staticwebassets\\assets\\Contact\\details-disclosure.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\details-modal.js",
+      "PackagePath": "staticwebassets\\assets\\Contact\\details-modal.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\global.js",
+      "PackagePath": "staticwebassets\\assets\\Contact\\global.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\globo.formbuilder.chunk.main-styles.7991d3480862.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\globo.formbuilder.chunk.main-styles.7991d3480862.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\messenger.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\messenger.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\predictive-search.js",
+      "PackagePath": "staticwebassets\\assets\\Contact\\predictive-search.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\pubsub.js",
+      "PackagePath": "staticwebassets\\assets\\Contact\\pubsub.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\search-form.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\Contact\\search-form.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\section-footer.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\section-footer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\section-rich-text.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\section-rich-text.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Contact\\spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css",
+      "PackagePath": "staticwebassets\\assets\\Contact\\spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\LOGO.png",
+      "PackagePath": "staticwebassets\\assets\\Index\\LOGO.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\animations.js",
+      "PackagePath": "staticwebassets\\assets\\Index\\animations.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\base.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\base.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\bluegirl1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\bluegirl1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\bluegirl2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\bluegirl2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\cart-notification.js",
+      "PackagePath": "staticwebassets\\assets\\Index\\cart-notification.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\catwithaballofyarn1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\catwithaballofyarn1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\catwithaballofyarn2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\catwithaballofyarn2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\catwithaheart1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\catwithaheart1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\catwithaheart2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\catwithaheart2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\chu_nlamng_iyeu1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\chu_nlamng_iyeu1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\chu_nlamng_iyeu2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\chu_nlamng_iyeu2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-card.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-card.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-list-menu.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-list-menu.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-list-social.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-list-social.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-menu-drawer.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-menu-drawer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-predictive-search.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-predictive-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-price.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-price.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-rating.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-rating.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-slider.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-slider.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\component-slideshow.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\component-slideshow.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\constants.js",
+      "PackagePath": "staticwebassets\\assets\\Index\\constants.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\details-disclosure.js",
+      "PackagePath": "staticwebassets\\assets\\Index\\details-disclosure.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\details-modal.js",
+      "PackagePath": "staticwebassets\\assets\\Index\\details-modal.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\eggufo1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\eggufo1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\eggufo2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\eggufo2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\ghostdog1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\ghostdog1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\ghostdog2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\ghostdog2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\global.js",
+      "PackagePath": "staticwebassets\\assets\\Index\\global.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hangvnch_tl_ngcao1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hangvnch_tl_ngcao1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hangvnch_tl_ngcao2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hangvnch_tl_ngcao2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hellyeah1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hellyeah1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hellyeah2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hellyeah2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh-xam-tam-thoi-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh-xam-tam-thoi-4.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_0.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_0.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_0_4def35c8-f666-460b-a4a7-c6e2616cbb6c.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_0_4def35c8-f666-460b-a4a7-c6e2616cbb6c.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1-2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1.1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1.1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_15afc3a8-e324-4c15-91bb-ddfb2904466e.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_15afc3a8-e324-4c15-91bb-ddfb2904466e.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_2302360a-3c03-4341-8e7d-409cb46e17e4.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_2302360a-3c03-4341-8e7d-409cb46e17e4.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_42fb9404-649b-490e-b9c1-8d714c113915.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_42fb9404-649b-490e-b9c1-8d714c113915.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_6584bc2f-c156-4300-854a-2877be592f97.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_6584bc2f-c156-4300-854a-2877be592f97.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_77f1894b-b3db-4eb3-bb25-4374c205c55f.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_77f1894b-b3db-4eb3-bb25-4374c205c55f.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_900d8904-54d0-47a8-9d12-5951c076b238.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_900d8904-54d0-47a8-9d12-5951c076b238.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_9a4f7858-2e25-4e2c-9a2e-1e4d91f47193.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_9a4f7858-2e25-4e2c-9a2e-1e4d91f47193.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_b785b6dd-51c0-4482-928e-4ce25ac20077.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_b785b6dd-51c0-4482-928e-4ce25ac20077.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_c0095e94-5347-4b8b-823c-f34dc29e83ab.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_c0095e94-5347-4b8b-823c-f34dc29e83ab.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_c3bda13a-9e26-4d2f-8e05-33363e97120a.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_c3bda13a-9e26-4d2f-8e05-33363e97120a.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_d18d2e69-8b66-49ec-a9df-7c513fc41bb9.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_d18d2e69-8b66-49ec-a9df-7c513fc41bb9.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_d9722fb2-fdac-41a0-8891-546b18479d20.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_d9722fb2-fdac-41a0-8891-546b18479d20.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_ea9699a8-9fb2-46ae-9514-b65e0d84ffbf.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_ea9699a8-9fb2-46ae-9514-b65e0d84ffbf.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_f1be4731-aa80-4f08-a271-e110b2364341.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_f1be4731-aa80-4f08-a271-e110b2364341.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_f4b4de5c-79aa-4400-9fb5-55bd5ccd3d38.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_f4b4de5c-79aa-4400-9fb5-55bd5ccd3d38.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_1_ffc1e1c2-4ba5-454c-9485-35c925bd4135.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_1_ffc1e1c2-4ba5-454c-9485-35c925bd4135.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_2_26948dfc-edff-4336-922b-344fe57109c2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_2_26948dfc-edff-4336-922b-344fe57109c2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_2_6ae78593-0365-4933-bbcf-f1f3f05e9ca9.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_2_6ae78593-0365-4933-bbcf-f1f3f05e9ca9.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_3_3de43876-9ec3-4bcf-b2e3-47b2af965910.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_3_3de43876-9ec3-4bcf-b2e3-47b2af965910.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6-2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6-2_01d63c62-25c5-4cbb-b9ef-d8d8e085dece.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6-2_01d63c62-25c5-4cbb-b9ef-d8d8e085dece.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6-2_2316df7a-6eda-4552-aa5e-b10e2f303fdd.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6-2_2316df7a-6eda-4552-aa5e-b10e2f303fdd.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6-2_abf9d332-9dfe-4967-a210-e30db82d2a35.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6-2_abf9d332-9dfe-4967-a210-e30db82d2a35.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6_36ccccf8-df5d-4d2f-b0e3-6ba228179bee.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6_36ccccf8-df5d-4d2f-b0e3-6ba228179bee.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6_3e9a41d1-9c58-4d04-88e4-22eb8bdf2213.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6_3e9a41d1-9c58-4d04-88e4-22eb8bdf2213.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6_9b82173f-a157-44d3-a324-98bc69afd486.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6_9b82173f-a157-44d3-a324-98bc69afd486.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6_b4d3e563-66d4-4fdb-a1f3-15de6a5ed6ae.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6_b4d3e563-66d4-4fdb-a1f3-15de6a5ed6ae.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_6_bf857205-58cc-4943-828a-68a56d981216.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_6_bf857205-58cc-4943-828a-68a56d981216.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\hinh_xam_dan_tam_thoi_7.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\hinh_xam_dan_tam_thoi_7.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\ifeelgood1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\ifeelgood1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\ifeelgood2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\ifeelgood2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\image_banner_-_desktop.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\image_banner_-_desktop.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\image_banner_-_mobilehrv.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\image_banner_-_mobilehrv.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\instafeed-7.6.0.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\instafeed-7.6.0.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\m_tng_t_ng_i1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\m_tng_t_ng_i1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\m_tng_t_ng_i2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\m_tng_t_ng_i2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\messenger.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\messenger.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\neverstoptrying1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\neverstoptrying1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\neverstoptrying2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\neverstoptrying2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\normalisboring1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\normalisboring1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\normalisboring2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\normalisboring2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelastronaut1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelastronaut1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelastronaut2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelastronaut2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelbunnyinhat1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelbunnyinhat1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelbunnyinhat2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelbunnyinhat2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelcroc1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelcroc1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelcroc2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelcroc2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelduck1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelduck1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelduck2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelduck2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelheart1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelheart1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelheart2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelheart2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelrobot1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelrobot1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelrobot2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelrobot2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pixelsnowman.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\pixelsnowman.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\placeholder.gif",
+      "PackagePath": "staticwebassets\\assets\\Index\\placeholder.gif"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\pubsub.js",
+      "PackagePath": "staticwebassets\\assets\\Index\\pubsub.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\purpleflower1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\purpleflower1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\purpleflower2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\purpleflower2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\search-form.js",
+      "PackagePath": "staticwebassets\\assets\\Index\\search-form.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\section-footer.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\section-footer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\section-image-banner.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\section-image-banner.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\section-multicolumn.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\section-multicolumn.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\section-rich-text.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\section-rich-text.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\summer-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\summer-06.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6-2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6-2_18052dab-5e6e-411d-ab97-b6c181cc6059.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6-2_18052dab-5e6e-411d-ab97-b6c181cc6059.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6-2_2da30878-169f-4200-b25b-f7c765393755.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6-2_2da30878-169f-4200-b25b-f7c765393755.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6-2_577a583f-a1e4-474a-8d77-e7c9c79ff267.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6-2_577a583f-a1e4-474a-8d77-e7c9c79ff267.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6-2_61de84f7-bf4c-4170-8c1e-9865b1f09bc5.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6-2_61de84f7-bf4c-4170-8c1e-9865b1f09bc5.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6-2_d65a5902-f83d-410c-b547-3bf3c127d84a.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6-2_d65a5902-f83d-410c-b547-3bf3c127d84a.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6-2_e14a9a67-f673-4f9b-ba6b-5c2aad4cdcb6.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6-2_e14a9a67-f673-4f9b-ba6b-5c2aad4cdcb6.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6-2_f98bdf7e-65d0-42ad-99b7-d7012581a912.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6-2_f98bdf7e-65d0-42ad-99b7-d7012581a912.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6v2-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6v2-2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\template-collection.css",
+      "PackagePath": "staticwebassets\\assets\\Index\\template-collection.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png",
+      "PackagePath": "staticwebassets\\assets\\Index\\testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png",
+      "PackagePath": "staticwebassets\\assets\\Index\\testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png",
+      "PackagePath": "staticwebassets\\assets\\Index\\testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png",
+      "PackagePath": "staticwebassets\\assets\\Index\\testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png",
+      "PackagePath": "staticwebassets\\assets\\Index\\testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png",
+      "PackagePath": "staticwebassets\\assets\\Index\\testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\what_s_included_v2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\what_s_included_v2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\whatever1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\whatever1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Index\\whatever2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Index\\whatever2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\LOGO.jpg",
+      "PackagePath": "staticwebassets\\assets\\LOGO.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\LOGO1.png",
+      "PackagePath": "staticwebassets\\assets\\LOGO1.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\338441759_651622186770102_6353181690819489582_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\338441759_651622186770102_6353181690819489582_n.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\animations.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\animations.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\base.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\base.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\cart-notification.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\cart-notification.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-card.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-card.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-list-menu.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-list-menu.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-list-social.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-list-social.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-menu-drawer.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-menu-drawer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-predictive-search.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-predictive-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-price.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-price.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-rating(1).css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-rating(1).css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-rating.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-rating.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-search.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\component-slider.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\component-slider.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\constants.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\constants.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\details-disclosure.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\details-disclosure.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\details-modal.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\details-modal.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\global.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\global.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_2302360a-3c03-4341-8e7d-409cb46e17e4.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_2302360a-3c03-4341-8e7d-409cb46e17e4.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_46b3f585-c423-461b-8229-cd37e22937e5.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_46b3f585-c423-461b-8229-cd37e22937e5.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_6584bc2f-c156-4300-854a-2877be592f97.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_6584bc2f-c156-4300-854a-2877be592f97.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_77f1894b-b3db-4eb3-bb25-4374c205c55f.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_77f1894b-b3db-4eb3-bb25-4374c205c55f.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500(1).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500(1).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500(2).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500(2).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_d9722fb2-fdac-41a0-8891-546b18479d20.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_d9722fb2-fdac-41a0-8891-546b18479d20.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_ea9699a8-9fb2-46ae-9514-b65e0d84ffbf.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_1_ea9699a8-9fb2-46ae-9514-b65e0d84ffbf.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033(1).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033(1).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033(2).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033(2).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef(1).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef(1).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef(2).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef(2).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53(1).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53(1).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53(2).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53(2).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe(1).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe(1).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe(2).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe(2).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_6.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_6_36ccccf8-df5d-4d2f-b0e3-6ba228179bee.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_6_36ccccf8-df5d-4d2f-b0e3-6ba228179bee.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_6_bf857205-58cc-4943-828a-68a56d981216.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_6_bf857205-58cc-4943-828a-68a56d981216.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_7.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_7.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_7_198d2314-484d-4308-adfd-e121f2f8f10b.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_7_198d2314-484d-4308-adfd-e121f2f8f10b.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_7_7cb25617-c67f-46a9-940c-54c416905dab.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\hinh_xam_dan_tam_thoi_7_7cb25617-c67f-46a9-940c-54c416905dab.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\media-gallery.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\media-gallery.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\predictive-search.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\predictive-search.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\product-modal.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\product-modal.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\pubsub.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\pubsub.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\search-form.js",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\search-form.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\section-footer.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\section-footer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\section-main-product.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\section-main-product.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\section-related-products.css",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\section-related-products.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\swatch6-2_e14a9a67-f673-4f9b-ba6b-5c2aad4cdcb6.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\swatch6-2_e14a9a67-f673-4f9b-ba6b-5c2aad4cdcb6.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\swatch6v2-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\swatch6v2-2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6(1).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6(1).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6(2).jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6(2).jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\what_s_included_v2.jpg",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\what_s_included_v2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\wired-outline-1103-confetti.gif",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\wired-outline-1103-confetti.gif"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\wired-outline-20-love-heart.gif",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\wired-outline-20-love-heart.gif"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ProductDetail\\wired-outline-447-water-drop_e8bac331-f4bb-4ecb-9c37-1b725e78a5e2.gif",
+      "PackagePath": "staticwebassets\\assets\\ProductDetail\\wired-outline-447-water-drop_e8bac331-f4bb-4ecb-9c37-1b725e78a5e2.gif"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\4Zu8isFZYHr.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\4Zu8isFZYHr.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\GSwcapvLrEq.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\GSwcapvLrEq.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\XaRr_Gkp-Na.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\XaRr_Gkp-Na.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\animations.js",
+      "PackagePath": "staticwebassets\\assets\\Products\\animations.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\base.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\base.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\bluegirl1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\bluegirl1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\bluegirl2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\bluegirl2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\cart-notification.js",
+      "PackagePath": "staticwebassets\\assets\\Products\\cart-notification.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-card.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-card.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-cart-items.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-cart-items.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-cart-notification.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-cart-notification.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-collection-hero.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-collection-hero.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-facets.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-facets.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-list-menu.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-list-menu.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-list-payment.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-list-payment.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-loading-overlay.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-loading-overlay.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-menu-drawer.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-menu-drawer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-newsletter.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-newsletter.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-pagination.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-pagination.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-predictive-search.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-predictive-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-price.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-price.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-rating.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-rating.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-search.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-show-more.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-show-more.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\component-slider.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\component-slider.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\details-modal.js",
+      "PackagePath": "staticwebassets\\assets\\Products\\details-modal.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\eggufo1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\eggufo1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\eggufo2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\eggufo2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\facets.js",
+      "PackagePath": "staticwebassets\\assets\\Products\\facets.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\global.js",
+      "PackagePath": "staticwebassets\\assets\\Products\\global.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_0.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_0.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_0_4def35c8-f666-460b-a4a7-c6e2616cbb6c.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_0_4def35c8-f666-460b-a4a7-c6e2616cbb6c.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1.1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1.1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_15afc3a8-e324-4c15-91bb-ddfb2904466e.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_15afc3a8-e324-4c15-91bb-ddfb2904466e.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_42fb9404-649b-490e-b9c1-8d714c113915.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_42fb9404-649b-490e-b9c1-8d714c113915.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_6584bc2f-c156-4300-854a-2877be592f97.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_6584bc2f-c156-4300-854a-2877be592f97.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_900d8904-54d0-47a8-9d12-5951c076b238.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_900d8904-54d0-47a8-9d12-5951c076b238.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_9a4f7858-2e25-4e2c-9a2e-1e4d91f47193.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_9a4f7858-2e25-4e2c-9a2e-1e4d91f47193.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_b785b6dd-51c0-4482-928e-4ce25ac20077.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_b785b6dd-51c0-4482-928e-4ce25ac20077.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_c0095e94-5347-4b8b-823c-f34dc29e83ab.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_c0095e94-5347-4b8b-823c-f34dc29e83ab.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_d18d2e69-8b66-49ec-a9df-7c513fc41bb9.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_d18d2e69-8b66-49ec-a9df-7c513fc41bb9.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_f4b4de5c-79aa-4400-9fb5-55bd5ccd3d38.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_f4b4de5c-79aa-4400-9fb5-55bd5ccd3d38.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_1_ffc1e1c2-4ba5-454c-9485-35c925bd4135.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_1_ffc1e1c2-4ba5-454c-9485-35c925bd4135.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_3_3de43876-9ec3-4bcf-b2e3-47b2af965910.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_3_3de43876-9ec3-4bcf-b2e3-47b2af965910.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_6-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_6-2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_6-2_01d63c62-25c5-4cbb-b9ef-d8d8e085dece.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_6-2_01d63c62-25c5-4cbb-b9ef-d8d8e085dece.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_6-2_abf9d332-9dfe-4967-a210-e30db82d2a35.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_6-2_abf9d332-9dfe-4967-a210-e30db82d2a35.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_6_36ccccf8-df5d-4d2f-b0e3-6ba228179bee.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_6_36ccccf8-df5d-4d2f-b0e3-6ba228179bee.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_6_9b82173f-a157-44d3-a324-98bc69afd486.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_6_9b82173f-a157-44d3-a324-98bc69afd486.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\hinh_xam_dan_tam_thoi_6_bf857205-58cc-4943-828a-68a56d981216.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\hinh_xam_dan_tam_thoi_6_bf857205-58cc-4943-828a-68a56d981216.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\messenger.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\messenger.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelastronaut1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelastronaut1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelastronaut2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelastronaut2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelbunnyinhat1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelbunnyinhat1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelbunnyinhat2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelbunnyinhat2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelcroc1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelcroc1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelcroc2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelcroc2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelduck1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelduck1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelduck2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelduck2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelheart1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelheart1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelheart2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelheart2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelrobot1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelrobot1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelrobot2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelrobot2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\pixelsnowman.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\pixelsnowman.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\purpleflower1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\purpleflower1.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\purpleflower2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\purpleflower2.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\search-form.js",
+      "PackagePath": "staticwebassets\\assets\\Products\\search-form.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\section-multicolumn.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\section-multicolumn.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\section_footer.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\section_footer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\show-more.js",
+      "PackagePath": "staticwebassets\\assets\\Products\\show-more.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\summer-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\summer-06.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\swatch6-2_18052dab-5e6e-411d-ab97-b6c181cc6059.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\swatch6-2_18052dab-5e6e-411d-ab97-b6c181cc6059.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\swatch6-2_2da30878-169f-4200-b25b-f7c765393755.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\swatch6-2_2da30878-169f-4200-b25b-f7c765393755.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\swatch6-2_577a583f-a1e4-474a-8d77-e7c9c79ff267.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\swatch6-2_577a583f-a1e4-474a-8d77-e7c9c79ff267.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\swatch6-2_61de84f7-bf4c-4170-8c1e-9865b1f09bc5.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\swatch6-2_61de84f7-bf4c-4170-8c1e-9865b1f09bc5.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg",
+      "PackagePath": "staticwebassets\\assets\\Products\\swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\Products\\template-collection.css",
+      "PackagePath": "staticwebassets\\assets\\Products\\template-collection.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\338441759_651622186770102_6353181690819489582_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\338441759_651622186770102_6353181690819489582_n.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\GSwcapvLrEq.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\GSwcapvLrEq.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\XaRr_Gkp-Na.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\XaRr_Gkp-Na.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\ZWGbiKcACNw.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\ZWGbiKcACNw.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\animations.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\animations.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\base.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\base.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\2aTNZvh7Dni.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\2aTNZvh7Dni.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\385007996693303",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\5-CNhD1hzUM.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\5-CNhD1hzUM.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\59wMTJGPL0_.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\59wMTJGPL0_.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\6MFrGCGpu1I.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\6MFrGCGpu1I.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\6NprGH5S4xc.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\6NprGH5S4xc.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\Cn_OgNtBsi4.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\Cn_OgNtBsi4.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\Gnm9vzFr_bN.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\Gnm9vzFr_bN.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\HDiX03ZTkcn.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\HDiX03ZTkcn.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\HoMN5oU548h.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\HoMN5oU548h.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\HzxD9aAXSyD.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\HzxD9aAXSyD.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\PwhKrSdLXU2.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\PwhKrSdLXU2.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\Square_Logo.png",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\Square_Logo.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\VMMGrWYM7Te.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\VMMGrWYM7Te.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\VRzSVH5iU-V.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\VRzSVH5iU-V.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\WDd6AOxHz0q.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\WDd6AOxHz0q.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\b9945bf9fw9f0493d3pc3794183m37925d68m.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\b9945bf9fw9f0493d3pc3794183m37925d68m.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\bCV1wsGQA40.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\bCV1wsGQA40.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\bLeTLwDwKxT.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\bLeTLwDwKxT.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\bubble(1).html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\bubble(1).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\bubble(2).html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\bubble(2).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\bubble(3).html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\bubble(3).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\bubble.html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\bubble.html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\cOabgDEJo3j.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\cOabgDEJo3j.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\cart.html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\cart.html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\customerchat.html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\customerchat.html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\events.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\events.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\fbevents.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\fbevents.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\gioodurleYa.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\gioodurleYa.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\globo.formbuilder.index.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\globo.formbuilder.index.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\i4NEvnb2_YI.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\i4NEvnb2_YI.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\identify_55404.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\identify_55404.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\instafeed-ce0da84d20a119c07fa3624498a11aaa.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\instafeed-ce0da84d20a119c07fa3624498a11aaa.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\jquery.min.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\jquery.min.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\loader.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\loader.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\main.MTc3MGUxMzJiMg.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\main.MTc3MGUxMzJiMg.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\messenger.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\messenger.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\mhWtbsD6qPU.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\mhWtbsD6qPU.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\p55HfXW__mM.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\p55HfXW__mM.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\preloads.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\preloads.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\ru8zNtgW1u3.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\ru8zNtgW1u3.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\saved_resource(1).html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\saved_resource(1).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\saved_resource(2).html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\saved_resource(2).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\saved_resource(3).html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\saved_resource(3).html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\saved_resource.html",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\saved_resource.html"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\scripts.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\scripts.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\shop_events_listener-a7c63dba65ccddc484f77541dc8ca437e60e1e9e297fe1c3faebf6523a0ede9b.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\shop_events_listener-a7c63dba65ccddc484f77541dc8ca437e60e1e9e297fe1c3faebf6523a0ede9b.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\shopify-boomerang-1.0.0.min.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\shopify-boomerang-1.0.0.min.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\spr-0e683603bfa450170bff33e7fbad64e7dfe9585e1caeb951bbe283e5a2306523.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\spr-0e683603bfa450170bff33e7fbad64e7dfe9585e1caeb951bbe283e5a2306523.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\trekkie.storefront.f2da2901761ed691d459433ada0e4d90e085713c.min.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\trekkie.storefront.f2da2901761ed691d459433ada0e4d90e085713c.min.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\uOkBg20P9Xa.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\uOkBg20P9Xa.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\xfbml.customerchat.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\xfbml.customerchat.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\bin\\xg5NEKS2wWK.js.tải xuống",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\bin\\xg5NEKS2wWK.js.tải xuống"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\cart-notification.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\cart-notification.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\cart.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\cart.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-cart-items.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-cart-items.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-cart-notification.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-cart-notification.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-cart.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-cart.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-discounts.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-discounts.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-list-menu.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-list-menu.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-list-payment.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-list-payment.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-list-social.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-list-social.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-loading-overlay.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-loading-overlay.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-menu-drawer.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-menu-drawer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-newsletter.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-newsletter.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-predictive-search.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-predictive-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-price.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-price.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-search.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-search.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\component-totals.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\component-totals.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\constants.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\constants.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\details-disclosure.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\details-disclosure.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\details-modal.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\details-modal.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\global.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\global.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\hinh_xam_dan_tam_thoi_6-2_abf9d332-9dfe-4967-a210-e30db82d2a35.jpg",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\hinh_xam_dan_tam_thoi_6-2_abf9d332-9dfe-4967-a210-e30db82d2a35.jpg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\messenger.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\messenger.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\predictive-search.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\predictive-search.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\pubsub.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\pubsub.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\search-form.js",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\search-form.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\section-footer.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\section-footer.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\ShoppingCart\\spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css",
+      "PackagePath": "staticwebassets\\assets\\ShoppingCart\\spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\banner.png",
+      "PackagePath": "staticwebassets\\assets\\banner.png"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\assets\\tiktoklogo.svg",
+      "PackagePath": "staticwebassets\\assets\\tiktoklogo.svg"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Materials\\FALL23\\EXE101\\Vietink\\VietInk\\VietInkWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.VietInkWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.VietInkWebApp.props",
+      "PackagePath": "build\\VietInkWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.VietInkWebApp.props",
+      "PackagePath": "buildMultiTargeting\\VietInkWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.VietInkWebApp.props",
+      "PackagePath": "buildTransitive\\VietInkWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -85,7 +85,10 @@ GO
 
 SET IDENTITY_INSERT [dbo].[Products] ON 
 INSERT [dbo].[Products] ([ProductID], [ProductName], [CategoryName], [QuantityPerUnit], [UnitPrice], [UnitsInStock], [Image], [Discontinued]) 
-VALUES (1, N'Xăm cá chép',N'to', N'1 hình lớn', 50000, 100, N'djfhjdf', 0)
+VALUES (1, N'Xăm cá chép',N'To', N'1 hình lớn', 50000, 100, N'djfhjdf', 0)
+
+INSERT [dbo].[Products] ([ProductID], [ProductName], [CategoryName], [QuantityPerUnit], [UnitPrice], [UnitsInStock], [Image], [Discontinued]) 
+VALUES (2, N'Xăm hổ',N'To', N'1 hình lớn', 50000, 100, N'djfhjdf', 0)
 SET IDENTITY_INSERT [dbo].[Products] OFF
 GO
 
@@ -109,6 +112,11 @@ CREATE TABLE [dbo].[Order Details](
 GO
 
 
+INSERT [dbo].[Order Details] ([OrderID], [ProductID], [UnitPrice], [Quantity]) 
+VALUES (1, 1, 12000, 2)
+INSERT [dbo].[Order Details] ([OrderID], [ProductID], [UnitPrice], [Quantity]) 
+VALUES (1, 2, 15000, 2)
+
 
 
 SET ANSI_NULLS ON
@@ -121,6 +129,8 @@ CREATE TABLE [dbo].[Requirements](
 	[Email] [nvarchar](255) NULL,
 	[PhoneNumber] [nvarchar](255) NOT NULL,
 	[Note] [nvarchar](max) NOT NULL,
+	[CreateDate] [datetime] NULL,
+	[Status] [nvarchar](255) NULL,
  CONSTRAINT [PK_Requirements] PRIMARY KEY CLUSTERED 
 (
 	[RequirementID] ASC

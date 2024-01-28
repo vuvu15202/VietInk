@@ -1,0 +1,140 @@
+Q1
+dotnet add package microsoft.entityframeworkcore.design --version 6.0.0
+dotnet add package microsoft.entityframeworkcore.sqlserver
+dotnet add package microsoft.extensions.configuration.json
+
+--scaffold: 
+Microsoft.VisualStudio.Web.CodeGeneration.Design
+Microsoft.EntityFrameworkCore.Tools
+--
+
+
+cmd -> dotnet tool list -g
+dotnet tool install dotnet-ef -g -v7.0.15(dotnet tool update dotnet-ef -g)
+tool -> command line
+
+
+1. tao appsettings.json
+2. tao dbcontext
+dotnet ef dbcontext scaffold "server=(local); database=tattooshop;trustservercertificate=true; integrated security=true" microsoft.entityframeworkcore.sqlserver --output-dir Models -t Products -t categories -t Orders -t "Orders Details" -t Employees -f
+(-f ghi đè)
+3. update connectionstring trong appsettings
+,"ConnectionStrings":{
+"MyDB": "server=(local); database=prn221_trial;trustservercertificate=true; integrated security=true"
+}
+
+4. update onConfiguring
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        var builder = new ConfigurationBuilder()
+                            .SetBasePath(Directory.GetCurrentDirectory())
+                            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+        IConfigurationRoot configuration = builder.Build();
+        optionsBuilder.UseSqlServer(configuration.GetConnectionString("MyDB"));
+    }
+//or thay Long chua
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                var connectionString = new ConfigurationBuilder()
+                                .SetBasePath(Directory.GetCurrentDirectory())
+                                .AddJsonFile("appsettings.json").Build().GetConnectionString("MyDB");
+                optionsBuilder.UseSqlServer(connectionString);
+            }
+        }
+
+5. Update project file (Always)
+<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+6. design 
+-change title
+-change size    1.5*  2.*
+
+Q2
+dotnet add package microsoft.entityframeworkcore.design
+dotnet add package microsoft.entityframeworkcore.sqlserver
+
+1. tao dbcontext nhu q1
+dotnet ef dbcontext scaffold "server=(local);uid=sa; password=123; database=prn221_trial;trustservercertificate=true;
+integrated security=true" microsoft.entityframeworkcore.sqlserver --output-dir DataAccess
+2. update onConfiguring
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        var connectionString = new ConfigurationBuilder()
+                            .SetBasePath(Directory.GetCurrentDirectory())
+                            .AddJsonFile("appsettings.json").Build().GetConnectionString("MyDB");
+        optionsBuilder.UseSqlServer(connectionString );
+    }
+3. update connectionString trong appsettings.json
+,"ConnectionStrings":{
+"MyDB": "server=(local); uid=sa; password=123; database=prn221_trial;trustservercertificate=true; integrated security=true"
+}
+4. trỏ Page -> Add -> Razor Page -> empty
+
+grid panel
+
+stack panel
+<StackPanel Background="LightBlue“ Orientation ="Vertical">
+<Label Name="lblInstruction"
+FontSize="15" Content="Enter Car Information"/>
+<Label Name="lblCarName" Content="Car Name"/>
+<TextBox Name="txtCarName" Height="25"/>
+
+wrappanel
+<WrapPanel Background="LightBlue" Orientation ="Vertical">
+<Label Name="lblInstruction" Width="328" Height="27"
+FontSize="15" Content="Enter Car Information"/>
+<Label Name="lblCarName" Content="Car Name"/>
+<TextBox Name="txtCarName" Width="193" Height="25"/>
+
+dock
+
+TextAlignment="Center"
+TextWrapping="Wrap"
+Margin="10"
+
+<GroupBox Margin="5">
+<StackPanel>
+<RadioButton GroupName="Group2">Group 2
+</RadioButton)
+<RadioButton GroupName="Group2">Group 2
+</RadioButton)
+<RadioButton GroupName="Group2">Group 2
+</RadioButton)
+</StackPanel>
+</GroupBox>
+
+
+save file 
+SaveFileDialog saveFileDialog = new SaveFileDialog();
+saveFileDialog.DefaultExt = ".json";
+saveFileDialog. Filter = "JSON Files (*.json) |*.json | All Files (*.*)|*.*";
+if (saveFileDialog.ShowDialog() == true)
+{
+var jsonOptions = new JsonSerializerOptions
+{
+WriteIndented = true
+};
+List<Product> productList = context. Products.ToList(); productList. ForEach(x =>
+{
+x. Category = null;
+});
+string jsonContent = JsonSerializer.Serialize(productList, jsonOptions);
+File.WriteAllText(saveFileDialog.FileName, jsonContent); MessageBox.Show("Save ok");
+}
+
+
+load file
+OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.DefaultExt = ".json";
+            openFileDialog.Filter = "JSON Files (*.json) |*.json | All Files (*.*)*.*";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                string jsonConten = File.ReadAllText(openFileDialog.FileName);
+                List<Product> products = JsonSerializer.Deserialize<List<Product>>(jsonConten);
+            lvproduct.ItemsSource = products; }

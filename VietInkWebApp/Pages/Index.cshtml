@@ -1,0 +1,1645 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
+<html class="js mdl-js" lang="en" style="--header-height: 153px;">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="">
+  <link rel="canonical" href="index.html">
+  <link rel="icon" type="image/png" href="~/assets/LOGO.jpg">
+  <link rel="preconnect" href="https://fonts.shopifycdn.com/" crossorigin="">
+  <title>
+    VietInk | Hình Xăm Dán
+  </title>
+
+
+
+
+  <script src="~/assets/Index/constants.js" defer="defer"></script>
+  <script src="~/assets/Index/pubsub.js" defer="defer"></script>
+  <script src="~/assets/Index/global.js" defer="defer"></script>
+  <script src="~/assets/Index/animations.js" defer="defer"></script>
+  
+
+  <link href="~/assets/Index/base.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="preload" as="font"
+    href="https://dinh-dinh.com/cdn/fonts/roboto/roboto_n4.da808834c2315f31dd3910e2ae6b1a895d7f73f5.woff2?h1=OWFkNzkyLTIuYWNjb3VudC5teXNob3BpZnkuY29t&amp;h2=ZGluaC1kaW5oLmNvbQ&amp;hmac=e738723f5054fc5c67f540a68b8620cb65e53b4e1d31086156768d7fec7b2191"
+    type="font/woff2" crossorigin="">
+  <link rel="preload" as="font"
+    href="https://dinh-dinh.com/cdn/fonts/assistant/assistant_n4.bcd3d09dcb631dec5544b8fb7b154ff234a44630.woff2?h1=OWFkNzkyLTIuYWNjb3VudC5teXNob3BpZnkuY29t&amp;h2=ZGluaC1kaW5oLmNvbQ&amp;hmac=db97b30945e7f112c8e9d3d73ab9403db3063aecc9d22a30a1e2abb1d442cf57"
+    type="font/woff2" crossorigin="">
+  <link rel="stylesheet" href="~/assets/Index/component-predictive-search.css" media="all" onload="this.media=&#39;all&#39;">
+  
+</head> 
+
+<body class="gradient animate--hover-default" data-new-gr-c-s-check-loaded="14.1150.0" data-gr-ext-installed="">
+  <a class="skip-to-content-link button visually-hidden" href="https://dinh-dinh.com/#MainContent">
+    Skip to content
+  </a><!-- BEGIN sections: header-group -->
+  <div id="shopify-section-sections--19481096061215__header"
+    class="shopify-section shopify-section-group-header-group section-header">
+    <link rel="stylesheet" href="~/assets/Index/component-list-menu.css" media="all" >
+    <link rel="stylesheet" href="~/assets/Index/component-search.css" media="all" >
+    <link rel="stylesheet" href="~/assets/Index/component-menu-drawer.css" media="all">
+    <link rel="stylesheet" href="~/assets/Index/component-cart-notification.css" media="all" >
+    <link rel="stylesheet" href="~/assets/Index/component-cart-items.css" media="all">
+    <link rel="stylesheet" href="~/assets/Index/component-price.css" media="all">
+    <link rel="stylesheet" href="~/assets/Index/component-loading-overlay.css" media="all" >
+
+    <script src="~/assets/Index/details-disclosure.js" defer="defer"></script>
+    <script src="~/assets/Index/details-modal.js" defer="defer"></script>
+    <script src="~/assets/Index/cart-notification.js" defer="defer"></script>
+    <script src="~/assets/Index/search-form.js" defer="defer"></script><svg
+      xmlns="http://www.w3.org/2000/svg" class="hidden">
+      <symbol id="icon-search" viewBox="0 0 18 19" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z"
+          fill="currentColor"></path>
+      </symbol>
+
+      <symbol id="icon-reset" class="icon icon-close" fill="none" viewBox="0 0 18 18" stroke="currentColor">
+        <circle r="8.5" cy="9" cx="9" stroke-opacity="0.2"></circle>
+        <path d="M6.82972 6.82915L1.17193 1.17097" stroke-linecap="round" stroke-linejoin="round"
+          transform="translate(5 5)"></path>
+        <path d="M1.22896 6.88502L6.77288 1.11523" stroke-linecap="round" stroke-linejoin="round"
+          transform="translate(5 5)"></path>
+      </symbol>
+
+      <symbol id="icon-close" class="icon icon-close" fill="none" viewBox="0 0 18 17">
+        <path
+          d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+          fill="currentColor">
+        </path>
+      </symbol>
+    </svg><sticky-header data-sticky-type="on-scroll-up"
+      class="header-wrapper color-background-1 gradient header-wrapper--border-bottom">
+      <header class="header header--top-center header--mobile-center page-width header--has-menu header--has-social">
+
+        <header-drawer data-breakpoint="tablet">
+          <details id="Details-menu-drawer-container" class="menu-drawer-container">
+            <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="Menu"
+              role="button" aria-expanded="false" aria-controls="menu-drawer">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="icon icon-hamburger"
+                  fill="none" viewBox="0 0 18 16">
+                  <path
+                    d="M1 .5a.5.5 0 100 1h15.71a.5.5 0 000-1H1zM.5 8a.5.5 0 01.5-.5h15.71a.5.5 0 010 1H1A.5.5 0 01.5 8zm0 7a.5.5 0 01.5-.5h15.71a.5.5 0 010 1H1a.5.5 0 01-.5-.5z"
+                    fill="currentColor">
+                  </path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="icon icon-close"
+                  fill="none" viewBox="0 0 18 17">
+                  <path
+                    d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+                    fill="currentColor">
+                  </path>
+                </svg>
+
+              </span>
+            </summary>
+            <div id="menu-drawer" class="gradient menu-drawer motion-reduce">
+              <div class="menu-drawer__inner-container">
+                <div class="menu-drawer__navigation-container">
+                  <nav class="menu-drawer__navigation">
+                    <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+                      <li><a id="HeaderDrawer-home" asp-page="/Index"
+                          class="menu-drawer__menu-item list-menu__item link link--text focus-inset menu-drawer__menu-item--active"
+                          aria-current="page">
+                          Home
+                        </a></li>
+                      <li>
+                        <details id="Details-menu-drawer-menu-item-2">
+                          <summary id="HeaderDrawer-cac-mẫu-xam"
+                            class="menu-drawer__menu-item list-menu__item link link--text focus-inset" role="button"
+                            aria-expanded="false" aria-controls="link-cac-mẫu-xam">
+                            Các Mẫu Xăm
+                            <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false"
+                              class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
+                                fill="currentColor">
+                              </path>
+                            </svg>
+
+                            <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                                fill="currentColor">
+                              </path>
+                            </svg>
+
+                          </summary>
+                          <div id="link-cac-mẫu-xam" class="menu-drawer__submenu has-submenu gradient motion-reduce"
+                            tabindex="-1">
+                            <div class="menu-drawer__inner-submenu">
+                              <button class="menu-drawer__close-button link link--text focus-inset"
+                                aria-expanded="true">
+                                <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false"
+                                  class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
+                                    fill="currentColor">
+                                  </path>
+                                </svg>
+
+                                Các Mẫu Xăm
+                              </button>
+                              <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                                <li><a id="HeaderDrawer-cac-mẫu-xam-mẫu-mới" asp-page="/products/Index" asp-route-categoryName="All"
+                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                    Mẫu Mới
+                                  </a></li>
+                                <li><a id="HeaderDrawer-cac-mẫu-xam-hinh-xam-mau-sắc" asp-page="/products/Index" asp-route-categoryName="All"
+                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                    Hình Xăm Màu Sắc
+                                  </a></li>
+                                <li><a id="HeaderDrawer-cac-mẫu-xam-hinh-xam-dơn-giản" asp-page="/products/Index" asp-route-categoryName="All"
+                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                    Hình Xăm Đơn Giản
+                                  </a></li>
+                                <li><a id="HeaderDrawer-cac-mẫu-xam-combo" asp-page="/products/Index" asp-route-categoryName="Combo"
+                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                    Combo
+                                  </a></li>
+                                <li><a id="HeaderDrawer-cac-mẫu-xam-cung-hoang-dạo" asp-page="/products/Index" asp-route-categoryName="Collection"
+                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                    Bộ Sưu Tập
+                                  </a></li>
+                                <li><a id="HeaderDrawer-cac-mẫu-xam-tất-cả-cac-mẫu" asp-page="/products/Index" asp-route-categoryName="All"
+                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                    Tất Cả Các Mẫu
+                                  </a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </details>
+                      </li>
+                      <!-- <li><a id="HeaderDrawer-hướng-dẫn-dan"
+                          href="https://dinh-dinh.com/pages/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-dan"
+                          class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
+                          Hướng Dẫn Dán
+                        </a></li> -->
+                      <li><a id="HeaderDrawer-về-dinh-dinh" asp-page="/contact/Index"
+                          class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
+                          Về VietInk
+                        </a></li>
+                      <li><a id="HeaderDrawer-lien-hệ" asp-page="/contact/Index"
+                          class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
+                          Liên Hệ
+                        </a></li>
+                    </ul>
+                  </nav>
+                  <div class="menu-drawer__utility-links">
+                    <ul class="list list-social list-unstyled" role="list">
+                      <li class="list-social__item">
+                        <a href="https://www.facebook.com/vietink24" class="list-social__link link"><svg
+                            aria-hidden="true" focusable="false" class="icon icon-facebook" viewBox="0 0 18 18">
+                            <path fill="currentColor"
+                              d="M16.42.61c.27 0 .5.1.69.28.19.2.28.42.28.7v15.44c0 .27-.1.5-.28.69a.94.94 0 01-.7.28h-4.39v-6.7h2.25l.31-2.65h-2.56v-1.7c0-.4.1-.72.28-.93.18-.2.5-.32 1-.32h1.37V3.35c-.6-.06-1.27-.1-2.01-.1-1.01 0-1.83.3-2.45.9-.62.6-.93 1.44-.93 2.53v1.97H7.04v2.65h2.24V18H.98c-.28 0-.5-.1-.7-.28a.94.94 0 01-.28-.7V1.59c0-.27.1-.5.28-.69a.94.94 0 01.7-.28h15.44z">
+                            </path>
+                          </svg>
+                          <span class="visually-hidden">Facebook</span>
+                        </a>
+                      </li>
+                      <li class="list-social__item">
+                        <a href="https://www.tiktok.com/@@vietink23" class="list-social__link link"><svg
+                            aria-hidden="true" focusable="false" class="icon icon-tiktok" viewBox="0 0 18 18">
+                            <path fill="currentColor"
+                              d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z">
+                            </path>
+                            <path fill="currentColor"
+                              d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z">
+                            </path>
+                          </svg>
+                          <span class="visually-hidden">Tiktok</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </details>
+        </header-drawer>
+
+
+        <details-modal class="header__search">
+          <details>
+            <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+              aria-haspopup="dialog" aria-label="Search" role="button">
+              <span>
+                <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
+                  <use href="#icon-search">
+                  </use>
+                </svg>
+                <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
+                  <use href="#icon-close">
+                  </use>
+                </svg>
+              </span>
+            </summary>
+            <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="Search">
+              <div class="modal-overlay"></div>
+              <div class="search-modal__content search-modal__content-bottom" tabindex="-1"><predictive-search
+                  class="search-modal__form" data-loading-text="Loading...">
+                     <form asp-page="/products/Index" method="get" class="search search-modal__form">
+                    <div class="field">
+                      <input  class="search__input field__input" id="Search-In-Modal-1" type="text" name="searchString"  placeholder="Search">
+                      <label class="field__label" for="Search-In-Modal-1">Search</label>
+                      
+                      <button type="reset" class="reset__button field__button hidden" aria-label="Clear search term">
+                        <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                          <use xlink:href="#icon-reset">
+                          </use>
+                        </svg>
+                      </button>
+                      <button class="search__button field__button" aria-label="Search">
+                        <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                          <use href="#icon-search">
+                          </use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search="">
+                      <div class="predictive-search__loading-state">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                    </div>
+
+                    <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+                  </form>
+                </predictive-search><button type="button"
+                  class="search-modal__close-button modal__close-button link link--text focus-inset" aria-label="Close">
+                  <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                    <use href="#icon-close">
+                    </use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </details>
+        </details-modal>
+        <h1 class="header__heading"><a asp-page="/index"
+            class="header__heading-link link link--text focus-inset">
+            <div class="header__heading-logo-wrapper">
+
+              <img src="~/assets/LOGO.jpg" alt="VietInk" width="60" height="60.0" loading="eager"
+                class="header__heading-logo motion-reduce" sizes="(max-width: 120px) 50vw, 60px">
+            </div>
+          </a></h1>
+
+        <nav class="header__inline-menu">
+          <ul class="list-menu list-menu--inline" role="list">
+            <li><a id="HeaderMenu-home" asp-page="/Index"
+                class="header__menu-item list-menu__item link link--text focus-inset" aria-current="page">
+                <span class="header__active-menu-item">Home</span>
+              </a></li>
+            <li><header-menu>
+                <details id="Details-HeaderMenu-2">
+                  <summary id="HeaderMenu-cac-mẫu-xam" class="header__menu-item list-menu__item link focus-inset"
+                    role="button" aria-expanded="false" aria-controls="HeaderMenu-MenuList-2">
+                    <span>Các Mẫu Xăm</span>
+                    <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                        fill="currentColor">
+                      </path>
+                    </svg>
+
+                  </summary>
+                  <ul id="HeaderMenu-MenuList-2"
+                    class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup"
+                    role="list" tabindex="-1">
+                    <li><a id="HeaderMenu-cac-mẫu-xam-mẫu-mới" asp-page="/products/Index" asp-route-categoryName="All"
+                        class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                        Mẫu Mới
+                      </a></li>
+                    <li><a id="HeaderMenu-cac-mẫu-xam-hinh-xam-mau-sắc" asp-page="/products/Index" asp-route-categoryName="All"
+                        class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                        Hình Xăm Màu Sắc
+                      </a></li>
+                    <li><a id="HeaderMenu-cac-mẫu-xam-hinh-xam-dơn-giản" asp-page="/products/Index" asp-route-categoryName="All"
+                        class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                        Hình Xăm Đơn Giản
+                      </a></li>
+                    <li><a id="HeaderMenu-cac-mẫu-xam-combo" asp-page="/products/Index" asp-route-categoryName="Combo"
+                        class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                        Combo
+                      </a></li>
+                    <li><a id="HeaderMenu-cac-mẫu-xam-cung-hoang-dạo" asp-page="/products/Index" asp-route-categoryName="Collection"
+                        class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                        Bộ Sưu Tập
+                      </a></li>
+                    <li><a id="HeaderMenu-cac-mẫu-xam-tất-cả-cac-mẫu" asp-page="/products/Index" asp-route-categoryName="All"
+                        class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                        Tất Cả Các Mẫu
+                      </a></li>
+                  </ul>
+                </details>
+              </header-menu></li>
+            <!-- <li><a id="HeaderMenu-hướng-dẫn-dan" href="https://dinh-dinh.com/pages/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-dan"
+                class="header__menu-item list-menu__item link link--text focus-inset">
+                <span>Hướng Dẫn Dán</span>
+              </a></li> -->
+            <li><a id="HeaderMenu-về-dinh-dinh" asp-page="/contact/Index"
+                class="header__menu-item list-menu__item link link--text focus-inset">
+                <span>Về VietInk</span>
+              </a></li>
+            <li><a id="HeaderMenu-lien-hệ" asp-page="/contact/Index"
+                class="header__menu-item list-menu__item link link--text focus-inset">
+                <span>Liên Hệ</span>
+              </a></li>
+          </ul>
+        </nav>
+
+        <div class="header__icons">
+          <div class="desktop-localization-wrapper">
+          </div>
+
+
+          <details-modal class="header__search">
+            <details>
+              <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+                aria-haspopup="dialog" aria-label="Search" role="button">
+                <span>
+                  <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
+                    <use href="#icon-search">
+                    </use>
+                  </svg>
+                  <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
+                    <use href="#icon-close">
+                    </use>
+                  </svg>
+                </span>
+              </summary>
+              <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="Search">
+                <div class="modal-overlay"></div>
+                <div class="search-modal__content search-modal__content-bottom" tabindex="-1"><predictive-search
+                    class="search-modal__form" data-loading-text="Loading...">
+                    <form asp-page="/products/Index" method="get" class="search search-modal__form">
+                      <div class="field">
+                        <input class="search__input field__input" id="Search-In-Modal" type="text" name="searchString"
+                          placeholder="Search">
+                        <label class="field__label" for="Search-In-Modal">Search</label>
+                        
+                        <button type="reset" class="reset__button field__button hidden" aria-label="Clear search term">
+                          <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                            <use xlink:href="#icon-reset">
+                            </use>
+                          </svg>
+                        </button>
+                        <button class="search__button field__button">
+                          <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                            <use href="#icon-search">
+                            </use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search="">
+                        <div class="predictive-search__loading-state">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                      </div>
+
+                      <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+                    </form>
+                  </predictive-search><button type="button"
+                    class="search-modal__close-button modal__close-button link link--text focus-inset"
+                    aria-label="Close">
+                    <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                      <use href="#icon-close">
+                      </use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </details>
+          </details-modal>
+
+          <a asp-page="/shoppingcart/Index" class="header__icon header__icon--cart link focus-inset"
+            id="cart-icon-bubble"><svg class="icon icon-cart" aria-hidden="true" focusable="false"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+              <path fill="currentColor" fill-rule="evenodd"
+                d="M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z">
+              </path>
+            </svg>
+            <span class="visually-hidden">Cart</span>
+            <div class="cart-count-bubble"><span aria-hidden="true">4</span><span class="visually-hidden">4 items</span>
+            </div>
+          </a>
+        </div>
+      </header>
+    </sticky-header>
+
+    <cart-notification>
+      <div class="cart-notification-wrapper page-width">
+        <div id="cart-notification" class="cart-notification focus-inset color-background-1 gradient" aria-modal="true"
+          aria-label="Sản phẩm đã được thêm vào giỏ hàng" role="dialog" tabindex="-1">
+          <div class="cart-notification__header">
+            <h2 class="cart-notification__heading caption-large text-body"><svg class="icon icon-checkmark"
+                aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 9" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11.35.643a.5.5 0 01.006.707l-6.77 6.886a.5.5 0 01-.719-.006L.638 4.845a.5.5 0 11.724-.69l2.872 3.011 6.41-6.517a.5.5 0 01.707-.006h-.001z"
+                  fill="currentColor"></path>
+              </svg>
+              Sản phẩm đã được thêm vào giỏ hàng
+            </h2>
+            <button type="button" class="cart-notification__close modal__close-button link link--text focus-inset"
+              aria-label="Close">
+              <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                <use href="#icon-close">
+                </use>
+              </svg>
+            </button>
+          </div>
+          <div id="cart-notification-product" class="cart-notification-product"></div>
+          <div class="cart-notification__links">
+            <a href="shoppingcart.html" id="cart-notification-button"
+              class="button button--secondary button--full-width">Xem Giỏ Hàng</a>
+            <!-- <form action="https://dinh-dinh.com/cart" method="post" id="cart-notification-form">
+              <button class="button button--primary button--full-width" name="checkout">
+                Thanh toán đơn hàng
+              </button>
+            </form> -->
+            <button type="button" class="link button-label">Tiếp tục khám phá sản phẩm</button>
+          </div>
+        </div>
+      </div>
+    </cart-notification>
+    
+  </div>
+  <section id="shopify-section-sections--19481096061215__a3704ed3-2e16-43fb-8fb1-73598baeda7f"
+    class="shopify-section shopify-section-group-header-group section">
+
+    <div class="color-background-1 gradient">
+      <div class="section-sections--19481096061215__a3704ed3-2e16-43fb-8fb1-73598baeda7f-padding">
+
+      </div>
+    </div>
+
+
+  </section>
+  <!-- END sections: header-group -->
+
+  <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+    <section id="shopify-section-template--19481095569695__d483baf1-ad2b-4d85-8e26-3f6d84f6305a"
+      class="shopify-section section">
+      <link href="~/assets/Index/section-image-banner.css" rel="stylesheet" type="text/css" media="all">
+     
+      <style data-shopify="">
+        #Banner-template--19481095569695__d483baf1-ad2b-4d85-8e26-3f6d84f6305a::after {
+          opacity: 0.0;
+        }
+      </style>
+      <div id="Banner-template--19481095569695__d483baf1-ad2b-4d85-8e26-3f6d84f6305a"
+        class="banner banner--content-align-center banner--content-align-mobile-center banner--adapt banner--desktop-transparent scroll-trigger animate--fade-in scroll-trigger--offscreen">
+        <div class="banner__media media scroll-trigger animate--fade-in scroll-trigger--offscreen"><img src="~/assets/banner.png"
+            alt="" width="767" height="600.0" loading="lazy" sizes="100vw">
+        </div>
+        <div
+          class="banner__content banner__content--middle-center page-width scroll-trigger animate--slide-in scroll-trigger--offscreen">
+          <div class="banner__box content-container content-container--full-width-mobile color-background-1 gradient">
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <section id="shopify-section-template--19481095569695__1290c91e-7c72-4a22-96c3-1cc1ad5492cb"
+      class="shopify-section section">
+      <link href="~/assets/Index/section-image-banner.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/component-slider.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/component-slideshow.css" rel="stylesheet" type="text/css" media="all">
+      <slideshow-component class="slider-mobile-gutter page-width" role="region" aria-roledescription="Carousel"
+        aria-label="">
+        <div
+          class="slideshow banner banner--small grid grid--1-col slider slider--everywhere scroll-trigger animate--fade-in"
+          id="Slider-template--19481095569695__1290c91e-7c72-4a22-96c3-1cc1ad5492cb" aria-live="polite"
+          aria-atomic="true" data-autoplay="false" data-speed="5">
+          <style>
+            #Slide-template--19481095569695__1290c91e-7c72-4a22-96c3-1cc1ad5492cb-1 .banner__media::after {
+              opacity: 0.0;
+            }
+          </style>
+          <div class="slideshow__slide grid__item grid--1-col slider__slide"
+            id="Slide-template--19481095569695__1290c91e-7c72-4a22-96c3-1cc1ad5492cb-1" role="group"
+            aria-roledescription="Slide" aria-label="1 of 1" tabindex="-1">
+            <div class="slideshow__media banner__media media">
+              <img src="~/assets/banner.png" alt="" height="600" loading="lazy" sizes="100vw">
+            </div>
+            <div
+              class="slideshow__text-wrapper banner__content banner__content--middle-center page-width banner--desktop-transparent scroll-trigger animate--slide-in">
+              <div
+                class="slideshow__text banner__box content-container content-container--full-width-mobile color-background-1 gradient slideshow__text--center slideshow__text-mobile--center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </slideshow-component>
+    </section>
+    <section id="shopify-section-template--19481095569695__featured_collection" class="shopify-section section">
+      <link href="~/assets/Index/component-card.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/component-price.css" rel="stylesheet" type="text/css" media="all">
+
+      <link href="~/assets/Index/component-slider.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/template-collection.css" rel="stylesheet" type="text/css" media="all">
+
+
+      <div class="color-background-1 isolate gradient">
+        <div class="collection section-template--19481095569695__featured_collection-padding">
+          <div
+            class="collection__title title-wrapper title-wrapper--no-top-margin page-width title-wrapper--self-padded-tablet-down collection__title--desktop-slider">
+            <h2 class="title inline-richtext h2 scroll-trigger animate--slide-in">
+              Best Sellers
+            </h2>
+          </div>
+
+          <slider-component
+            class="slider-mobile-gutter slider-component-desktop scroll-trigger animate--slide-in scroll-trigger--offscreen">
+            <ul id="Slider-template--19481095569695__featured_collection"
+              class="grid product-grid contains-card contains-card--product contains-card--standard grid--3-col-desktop grid--1-col-tablet-down slider slider--desktop slider--tablet grid--peek"
+              role="list" aria-label="Slider">
+              @foreach(var item in @Model.BestSellers){
+                <li id="Slide-template--19481095569695__featured_collection-1"
+                class="grid__item slider__slide scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 1;">
+
+
+                <link href="~/assets/Index/component-rating.css" rel="stylesheet" type="text/css"
+                  media="all">
+                <div class="card-wrapper product-card-wrapper underline-links-hover">
+                  <div class="card card--standard card--media " style="--ratio-percent: 100%; border: 0px solid white !important;">
+                    <div class="card__inner color-background-2 gradient ratio" style="--ratio-percent: 100%;">
+                      <div class="card__media">
+                        <div class="media media--transparent media--hover-effect">
+
+                          <img src="~/ProductImages/@item.Image"
+                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                            alt="Space Collection" class="motion-reduce" loading="lazy" width="1080" height="1080">
+
+                          <img src="~/ProductImages/@item.Image"
+                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                            alt="" class="motion-reduce" loading="lazy" width="1080" height="1080">
+                        </div>
+                      </div>
+                      <div class="card__content">
+                        <div class="card__information">
+                          <h3 class="card__heading">
+                            <a asp-page="/productdetail/Index" asp-route-id="@item.ProductId"
+                              id="StandardCardNoMediaLink-template--19481095569695__featured_collection-8237550272799"
+                              class="full-unstyled-link"
+                              aria-labelledby="StandardCardNoMediaLink-template--19481095569695__featured_collection-8237550272799 NoMediaStandardBadge-template--19481095569695__featured_collection-8237550272799">
+                              @item.ProductName
+                            </a>
+                          </h3>
+                        </div>
+                        <div class="card__badge bottom left"></div>
+                        @if(!(@item.UnitsInStock >0)){
+                            <div class="card__badge bottom left"><span
+                            id="NoMediaStandardBadge-template--19481095569695__featured_collection-8348527984927"
+                            class="badge badge--bottom-left color-inverse">Hết Hàng</span>
+                            </div>
+                        }
+                        
+                      </div>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__information">
+                        <h3 class="card__heading h5"
+                          id="title-template--19481095569695__featured_collection-8237550272799">
+                          <a href="productdetail.html"
+                            id="CardLink-template--19481095569695__featured_collection-8237550272799"
+                            class="full-unstyled-link"
+                            aria-labelledby="CardLink-template--19481095569695__featured_collection-8237550272799 Badge-template--19481095569695__featured_collection-8237550272799">
+                            @item.ProductName
+                          </a>
+                        </h3>
+                        <div class="card-information"><span class="visually-hidden">Vendor:</span>
+                          <div class="caption-with-letter-spacing light">@item.QuantityPerUnit</div><span
+                            class="caption-large light"></span>
+                          <div class="rating" role="img" aria-label="4.928571429 out of 5.0 stars">
+                            <span aria-hidden="true" class="rating-star"
+                              style="--rating: 4; --rating-max: 5.0; --rating-decimal: 1;"></span>
+                          </div>
+                          <p class="rating-text caption">
+                            <span aria-hidden="true">4.928571429 /
+                              5.0</span>
+                          </p>
+                          <p class="rating-count caption">
+                            <span aria-hidden="true">(1)</span>
+                            <span class="visually-hidden">1 total reviews</span>
+                          </p>
+                          <div class="price ">
+                            <div class="price__container">
+                              <div class="price__regular">
+                                <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                                <span class="price-item price-item--regular">
+                                  @String.Format("{0:N0}", item.UnitPrice) VNĐ
+                                </span>
+                              </div>
+                              <div class="price__sale">
+                                <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                                <span>
+                                  <s class="price-item price-item--regular">
+                                  </s>
+                                </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+                                <span class="price-item price-item--sale price-item--last">
+                                  @String.Format("{0:N0}", item.UnitPrice) VNĐ
+                                </span>
+                              </div>
+                              <small class="unit-price caption hidden">
+                                <span class="visually-hidden">Unit price</span>
+                                <span class="price-item price-item--last">
+                                  <span></span>
+                                  <span aria-hidden="true">/</span>
+                                  <span class="visually-hidden">&nbsp;per&nbsp;</span>
+                                  <span>
+                                  </span>
+                                </span>
+                              </small>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="card__badge bottom left"></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              }
+              
+            </ul>
+            <div class="slider-buttons no-js-hidden">
+              <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Slide left"
+                aria-controls="Slider-template--19481095569695__featured_collection" disabled="disabled">
+                <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                    fill="currentColor">
+                  </path>
+                </svg>
+
+              </button>
+              <div class="slider-counter caption">
+                <span class="slider-counter--current">1</span>
+                <span aria-hidden="true"> / </span>
+                <span class="visually-hidden">of</span>
+                <span class="slider-counter--total">4</span>
+              </div>
+              <button type="button" class="slider-button slider-button--next" name="next" aria-label="Slide right"
+                aria-controls="Slider-template--19481095569695__featured_collection">
+                <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                    fill="currentColor">
+                  </path>
+                </svg>
+
+              </button>
+            </div>
+          </slider-component>
+        </div>
+      </div>
+
+
+      <style>
+        #shopify-section-template--19481095569695__featured_collection .slider-counter {
+          font-family: "grandstander";
+          font-size: 17px;
+        }
+
+        #shopify-section-template--19481095569695__featured_collection .caption-with-letter-spacing {
+          background: #ffd201;
+          display: inline-block;
+          padding: 5px 10px;
+          border-radius: 9px;
+          font-family: grandstander;
+          font-size: 13px;
+          color: #000;
+        }
+
+        #shopify-section-template--19481095569695__featured_collection .light {
+          opacity: 1;
+        }
+      </style>
+    </section>
+    <section id="shopify-section-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4"
+      class="shopify-section section">
+      <link href="~/assets/Index/component-card.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/component-price.css" rel="stylesheet" type="text/css" media="all">
+
+      <link href="~/assets/Index/component-slider.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/template-collection.css" rel="stylesheet" type="text/css" media="all">
+
+
+      <div class="color-background-1 isolate gradient">
+        <div class="collection section-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-padding">
+          <div
+            class="collection__title title-wrapper title-wrapper--no-top-margin page-width title-wrapper--self-padded-tablet-down collection__title--desktop-slider">
+            <h2 class="title inline-richtext h2 scroll-trigger animate--slide-in scroll-trigger--offscreen">
+              Hình Lẻ - Đồng Giá 10K
+            </h2>
+          </div>
+
+          <slider-component
+            class="slider-mobile-gutter slider-component-desktop scroll-trigger animate--slide-in scroll-trigger--offscreen">
+            <ul id="Slider-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4"
+              class="grid product-grid contains-card contains-card--product contains-card--standard grid--4-col-desktop grid--1-col-tablet-down slider slider--desktop slider--tablet grid--peek"
+              role="list" aria-label="Slider">
+              @foreach(var item in @Model.Comboes){
+                <li id="Slide-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-@item.ProductId"
+                class="grid__item slider__slide scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 1;">
+
+
+                <link href="~/assets/Index/component-rating.css" rel="stylesheet" type="text/css" media="all">
+                <div class="card-wrapper product-card-wrapper underline-links-hover">
+                  <div class="card card--standard card--media" style="--ratio-percent: 100%; border: 0px solid white !important;">
+                    <div class="card__inner color-background-2 gradient ratio" style="--ratio-percent: 100%;">
+                      <div class="card__media">
+                        <div class="media media--transparent media--hover-effect">
+
+                          <img src="~/ProductImages/@item.Image"
+                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                            alt="Cat with a Ball of Yarn" class="motion-reduce" loading="lazy" width="1000"
+                            height="1000">
+
+                          <img src="~/ProductImages/@item.Image"
+                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                            alt="" class="motion-reduce" loading="lazy" width="1000" height="1000">
+                        </div>
+                      </div>
+                      <div class="card__content">
+                        <div class="card__information">
+                          <h3 class="card__heading">
+                            <a asp-page="/productdetail/Index" asp-route-id="@item.ProductId"
+                              id="StandardCardNoMediaLink-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-8349109289247"
+                              class="full-unstyled-link"
+                              aria-labelledby="StandardCardNoMediaLink-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-8349109289247 NoMediaStandardBadge-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-8349109289247">
+                              @item.ProductName
+                            </a>
+                          </h3>
+                        </div>
+                        <div class="card__badge bottom left"></div>
+                        @if(!(@item.UnitsInStock >0)){
+                            <div class="card__badge bottom left"><span
+                            id="NoMediaStandardBadge-template--19481095569695__featured_collection-8348527984927"
+                            class="badge badge--bottom-left color-inverse">Hết Hàng</span>
+                        </div>
+                        }
+                      </div>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__information">
+                        <h3 class="card__heading h5"
+                          id="title-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-8349109289247">
+                          <a asp-page="/productdetail/Index" asp-route-id="@item.ProductId"
+                            id="CardLink-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-8349109289247"
+                            class="full-unstyled-link"
+                            aria-labelledby="CardLink-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-8349109289247 Badge-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4-8349109289247">
+                            @item.ProductName
+                          </a>
+                        </h3>
+                        <div class="card-information"><span class="visually-hidden">Vendor:</span>
+                          <div class="caption-with-letter-spacing light">@item.QuantityPerUnit</div><span
+                            class="caption-large light"></span>
+                          <div class="price ">
+                            <div class="price__container">
+                              <div class="price__regular">
+                                <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                                <span class="price-item price-item--regular">
+                                  @String.Format("{0:N0}", item.UnitPrice) VNĐ
+                                </span>
+                              </div>
+                              <div class="price__sale">
+                                <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                                <span>
+                                  <s class="price-item price-item--regular">
+                                  </s>
+                                </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+                                <span class="price-item price-item--sale price-item--last">
+                                  @String.Format("{0:N0}", item.UnitPrice) VNĐ
+                                </span>
+                              </div>
+                              <small class="unit-price caption hidden">
+                                <span class="visually-hidden">Unit price</span>
+                                <span class="price-item price-item--last">
+                                  <span></span>
+                                  <span aria-hidden="true">/</span>
+                                  <span class="visually-hidden">&nbsp;per&nbsp;</span>
+                                  <span>
+                                  </span>
+                                </span>
+                              </small>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="card__badge bottom left"></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              }
+              
+              
+            </ul>
+            <div class="slider-buttons no-js-hidden">
+              <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Slide left"
+                aria-controls="Slider-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4"
+                disabled="disabled">
+                <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                    fill="currentColor">
+                  </path>
+                </svg>
+
+              </button>
+              <div class="slider-counter caption">
+                <span class="slider-counter--current">1</span>
+                <span aria-hidden="true"> / </span>
+                <span class="visually-hidden">of</span>
+                <span class="slider-counter--total">18</span>
+              </div>
+              <button type="button" class="slider-button slider-button--next" name="next" aria-label="Slide right"
+                aria-controls="Slider-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4">
+                <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                    fill="currentColor">
+                  </path>
+                </svg>
+
+              </button>
+            </div>
+          </slider-component>
+        </div>
+      </div>
+
+
+      <style>
+        #shopify-section-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4 .slider-counter {
+          font-family: "grandstander";
+          font-size: 17px;
+        }
+
+        #shopify-section-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4 .caption-with-letter-spacing {
+          background: #ffd201;
+          display: inline-block;
+          padding: 5px 10px;
+          border-radius: 9px;
+          font-family: grandstander;
+          font-size: 13px;
+          color: #000;
+        }
+
+        #shopify-section-template--19481095569695__a9d42aa5-e726-4702-951d-c816652f0bf4 .light {
+          opacity: 1;
+        }
+      </style>
+    </section>
+    <section id="shopify-section-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37"
+      class="shopify-section section">
+      <link href="~/assets/Index/component-card.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/component-price.css" rel="stylesheet" type="text/css" media="all">
+
+      <link href="~/assets/Index/component-slider.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/template-collection.css" rel="stylesheet" type="text/css" media="all">
+
+
+      <div class="color-background-1 isolate gradient">
+        <div class="collection section-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-padding">
+          <div
+            class="collection__title title-wrapper title-wrapper--no-top-margin page-width title-wrapper--self-padded-tablet-down collection__title--desktop-slider">
+            <h2 class="title inline-richtext h2 scroll-trigger animate--slide-in scroll-trigger--offscreen">
+              Bộ Sưu Tập
+            </h2>
+          </div>
+
+          <slider-component
+            class="slider-mobile-gutter slider-component-desktop scroll-trigger animate--slide-in scroll-trigger--offscreen">
+            <ul id="Slider-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37"
+              class="grid product-grid contains-card contains-card--product contains-card--standard grid--3-col-desktop grid--1-col-tablet-down slider slider--desktop slider--tablet grid--peek"
+              role="list" aria-label="Slider">
+              @foreach(var item in @Model.Collections){
+                  <li id="Slide-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-1"
+                class="grid__item slider__slide scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 1;">
+
+
+                <link href="~/assets/Index/component-rating.css" rel="stylesheet" type="text/css" media="all">
+                <div class="card-wrapper product-card-wrapper underline-links-hover">
+                  <div class="card card--standard card--media" style="--ratio-percent: 100%; border: 0px solid white !important;">
+                    <div class="card__inner color-background-2 gradient ratio" style="--ratio-percent: 100%;">
+                      <div class="card__media">
+                        <div class="media media--transparent media--hover-effect">
+
+                          <img src="~/ProductImages/@item.Image"
+                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                            alt="@item.ProductName" class="motion-reduce" loading="lazy" width="1080" height="1080">
+
+                          <img src="~/ProductImages/@item.Image"
+                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                            alt="@item.ProductName" class="motion-reduce" loading="lazy" width="1080" height="1080">
+                        </div>
+                      </div>
+                      <div class="card__content">
+                        <div class="card__information">
+                          <h3 class="card__heading">
+                            <a asp-page="/productdetail/Index" asp-route-id="@item.ProductId"
+                              id="StandardCardNoMediaLink-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-8237513507103"
+                              class="full-unstyled-link"
+                              aria-labelledby="StandardCardNoMediaLink-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-8237513507103 NoMediaStandardBadge-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-8237513507103">
+                                @item.ProductName
+                            </a>
+                          </h3>
+                        </div>
+                        <div class="card__badge bottom left"></div>
+                        @if(!(@item.UnitsInStock >0)){
+                            <div class="card__badge bottom left">
+                                <span id="NoMediaStandardBadge-template--19481095569695__featured_collection-8348527984927" class="badge badge--bottom-left color-inverse">
+                                Hết Hàng
+                                </span>
+                            </div>
+                        }
+                      </div>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__information">
+                        <h3 class="card__heading h5"
+                          id="title-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-8237513507103">
+                          <a asp-page="/productdetail/Index" asp-route-id="@item.ProductId"
+                            id="CardLink-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-8237513507103"
+                            class="full-unstyled-link"
+                            aria-labelledby="CardLink-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-8237513507103 Badge-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37-8237513507103">
+                                                            @item.ProductName
+                          </a>
+                        </h3>
+                        <div class="card-information"><span class="visually-hidden">Vendor:</span>
+                          <div class="caption-with-letter-spacing light">@item.QuantityPerUnit</div><span
+                            class="caption-large light"></span>
+                          <div class="rating" role="img" aria-label="5.0 out of 5.0 stars">
+                            <span aria-hidden="true" class="rating-star"
+                              style="--rating: 5; --rating-max: 5.0; --rating-decimal: 0;"></span>
+                          </div>
+                          <p class="rating-text caption">
+                            <span aria-hidden="true">5.0 /
+                              5.0</span>
+                          </p>
+                          <p class="rating-count caption">
+                            <span aria-hidden="true">(9)</span>
+                            <span class="visually-hidden">9
+                              total reviews</span>
+                          </p>
+                          <div class="price ">
+                            <div class="price__container">
+                              <div class="price__regular">
+                                <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                                <span class="price-item price-item--regular">
+                                    @String.Format("{0:N0}", item.UnitPrice) VNĐ
+                                </span>
+                              </div>
+                              <div class="price__sale">
+                                <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                                <span>
+                                  <s class="price-item price-item--regular">
+
+
+
+                                  </s>
+                                </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+                                <span class="price-item price-item--sale price-item--last">
+                                  @String.Format("{0:N0}", item.UnitPrice) VNĐ
+                                </span>
+                              </div>
+                              <small class="unit-price caption hidden">
+                                <span class="visually-hidden">Unit price</span>
+                                <span class="price-item price-item--last">
+                                  <span></span>
+                                  <span aria-hidden="true">/</span>
+                                  <span class="visually-hidden">&nbsp;per&nbsp;</span>
+                                  <span>
+                                  </span>
+                                </span>
+                              </small>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="card__badge bottom left"></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              }
+              
+              
+            </ul>
+            <div class="slider-buttons no-js-hidden">
+              <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Slide left"
+                aria-controls="Slider-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37"
+                disabled="disabled">
+                <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                    fill="currentColor">
+                  </path>
+                </svg>
+
+              </button>
+              <div class="slider-counter caption">
+                <span class="slider-counter--current">1</span>
+                <span aria-hidden="true"> / </span>
+                <span class="visually-hidden">of</span>
+                <span class="slider-counter--total">23</span>
+              </div>
+              <button type="button" class="slider-button slider-button--next" name="next" aria-label="Slide right"
+                aria-controls="Slider-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37">
+                <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                    fill="currentColor">
+                  </path>
+                </svg>
+
+              </button>
+            </div>
+          </slider-component>
+        </div>
+      </div>
+
+
+      <style>
+        #shopify-section-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37 .slider-counter {
+          font-family: "grandstander";
+          font-size: 17px;
+        }
+
+        #shopify-section-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37 .caption-with-letter-spacing {
+          background: #ffd201;
+          display: inline-block;
+          padding: 5px 10px;
+          border-radius: 9px;
+          font-family: grandstander;
+          font-size: 13px;
+          color: #000;
+        }
+
+        #shopify-section-template--19481095569695__9108409c-b714-40d5-980f-571e70604e37 .light {
+          opacity: 1;
+        }
+      </style>
+    </section>
+    <section id="shopify-section-template--19481095569695__8905adf8-64ac-4975-926b-c2ac7ac2ce08"
+      class="shopify-section section">
+      <link href="~/assets/Index/section-multicolumn.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/component-slider.css" rel="stylesheet" type="text/css" media="all">
+
+      <div class="multicolumn color-background-1 gradient background-none no-heading">
+        <div
+          class="page-width section-template--19481095569695__8905adf8-64ac-4975-926b-c2ac7ac2ce08-padding isolate scroll-trigger animate--slide-in scroll-trigger--offscreen"
+          data-cascade=""><slider-component class="slider-mobile-gutter">
+            <ul class="multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop"
+              id="Slider-template--19481095569695__8905adf8-64ac-4975-926b-c2ac7ac2ce08" role="list">
+              <li id="Slide-template--19481095569695__8905adf8-64ac-4975-926b-c2ac7ac2ce08-1"
+                class="multicolumn-list__item grid__item scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 1;">
+                <div class="multicolumn-card content-container">
+                  <div class="multicolumn-card__info">
+                    <h3 class="inline-richtext">KHÔNG CHỈ CÓ HÌNH XĂM DÁN</h3>
+                    <div class="rte">
+                      <p>Với mỗi đơn hàng, bạn sẽ nhận được nhiều món quà tặng kèm hay ho bao gồm bao đựng hình xăm nhỏ
+                        gọn tiện lợi để bạn mang theo xăm mọi lúc mọi nơi, khăn thấm nước hỗ trợ dán hình xăm, thẻ cào
+                        chứa đựng tín hiệu từ vũ trụ, 1 miếng xăm bí mật của tháng và đặc biệt là tình yêu vô bờ bến từ
+                        team VietInk 🥹.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li id="Slide-template--19481095569695__8905adf8-64ac-4975-926b-c2ac7ac2ce08-2"
+                class="multicolumn-list__item grid__item scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 2;">
+                <div class="multicolumn-card content-container">
+                  <div
+                    class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                    <div class="media media--transparent media--adapt" style="padding-bottom: 50.22471910112359%;">
+                      <img src="~/assets/Index/what_s_included_v2.jpg" alt=""
+                        width="3200" height="1607" loading="lazy" sizes="
+                      (min-width: 1200px) calc((1200px - 108px) * 1 /  2),
+                      (min-width: 990px) calc((100vw - 108px) * 1 / 2),
+                      (min-width: 750px) calc((100vw - 100px) * 1 / 1),
+                      calc((100vw - 30px) * 1 / 1)
+                    " class="multicolumn-card__image">
+                    </div>
+                  </div>
+                  <div class="multicolumn-card__info"></div>
+                </div>
+              </li>
+            </ul>
+          </slider-component>
+          <div class="center"></div>
+        </div>
+      </div>
+
+
+      <style>
+        #shopify-section-template--19481095569695__8905adf8-64ac-4975-926b-c2ac7ac2ce08 .multicolumn {
+          border: 3px solid #000;
+          border-radius: 13px;
+          max-width: 1200px;
+          width: 95%;
+          margin: 0 auto;
+          padding: 10px;
+        }
+      </style>
+    </section>
+    <section id="shopify-section-template--19481095569695__66579bbb-9ed0-4f01-a7d3-e948d21c184f"
+      class="shopify-section section">
+      <link href="~/assets/Index/section-rich-text.css" rel="stylesheet" type="text/css" media="all">
+
+      <div class="isolate">
+        <div
+          class="rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-template--19481095569695__66579bbb-9ed0-4f01-a7d3-e948d21c184f-padding">
+          <div class="rich-text__wrapper rich-text__wrapper--center page-width">
+            <div class="rich-text__blocks center">
+              <div class="rich-text__buttons scroll-trigger animate--slide-in scroll-trigger--offscreen" data-cascade=""
+                style="--animation-order: 1;">
+                <a
+                   asp-page="/products/Index" asp-route-categoryName="All"
+                  class="button button--primary">Khám Phá Các Mẫu Hình Xăm
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <section id="shopify-section-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce"
+      class="shopify-section section">
+      <link href="~/assets/Index/section-multicolumn.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/component-slider.css" rel="stylesheet" type="text/css" media="all">
+      <style data-shopify="">
+       
+      </style>
+      <div class="multicolumn color-accent-1 gradient background-none">
+        <div
+          class="page-width section-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce-padding isolate scroll-trigger animate--slide-in scroll-trigger--offscreen"
+          data-cascade="">
+          <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+            <h2 class="title inline-richtext h2">
+              CÁC KHÁCH HÀNG CỦA TỤI MÌNH NÓI GÌ?
+            </h2>
+          </div><slider-component class="slider-mobile-gutter">
+            <ul class="multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--3-col-desktop"
+              id="Slider-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce" role="list">
+              <li id="Slide-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce-1"
+                class="multicolumn-list__item grid__item center scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 1;">
+                <div class="multicolumn-card content-container">
+                  <div
+                    class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                    <div class="media media--transparent media--adapt" style="padding-bottom: 50.55467511885895%;">
+                      <img src="~/assets/Index/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png"
+                        alt=""
+                        srcset="//dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=50 50w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=75 75w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=100 100w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=150 150w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=200 200w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=300 300w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=400 400w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=500 500w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=750 750w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=1000 1000w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=1250 1250w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=1500 1500w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=1750 1750w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=2000 2000w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=2250 2250w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=2500 2500w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=2750 2750w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=3000 3000w, //dinh-dinh.com/cdn/shop/files/testimonial_1_91ec54fa-441f-4fc3-9cda-d9c534b46434.png?v=1684079394&amp;width=3200 3200w"
+                        width="3200" height="1795" loading="lazy" sizes="
+                      (min-width: 1200px) calc((1200px - 116px) * 1 /  3),
+                      (min-width: 990px) calc((100vw - 116px) * 1 / 3),
+                      (min-width: 750px) calc((100vw - 100px) * 1 / 1),
+                      calc((100vw - 30px) * 1 / 1)
+                    " class="multicolumn-card__image">
+                    </div>
+                  </div>
+                  <div class="multicolumn-card__info"></div>
+                </div>
+              </li>
+              <li id="Slide-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce-2"
+                class="multicolumn-list__item grid__item center scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 2;">
+                <div class="multicolumn-card content-container">
+                  <div
+                    class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                    <div class="media media--transparent media--adapt" style="padding-bottom: 50.55467511885895%;">
+                      <img src="~/assets/Index/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png"
+                        alt=""
+                        srcset="//dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=50 50w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=75 75w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=100 100w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=150 150w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=200 200w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=300 300w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=400 400w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=500 500w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=750 750w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=1000 1000w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=1250 1250w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=1500 1500w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=1750 1750w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=2000 2000w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=2250 2250w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=2500 2500w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=2750 2750w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=3000 3000w, //dinh-dinh.com/cdn/shop/files/testimonial_2_f19a38a7-95b0-460b-8b43-2b219e5221c3.png?v=1684079489&amp;width=3200 3200w"
+                        width="3200" height="2227" loading="lazy" sizes="
+                      (min-width: 1200px) calc((1200px - 116px) * 1 /  3),
+                      (min-width: 990px) calc((100vw - 116px) * 1 / 3),
+                      (min-width: 750px) calc((100vw - 100px) * 1 / 1),
+                      calc((100vw - 30px) * 1 / 1)
+                    " class="multicolumn-card__image">
+                    </div>
+                  </div>
+                  <div class="multicolumn-card__info"></div>
+                </div>
+              </li>
+              <li id="Slide-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce-3"
+                class="multicolumn-list__item grid__item center scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 3;">
+                <div class="multicolumn-card content-container">
+                  <div
+                    class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                    <div class="media media--transparent media--adapt" style="padding-bottom: 50.55467511885895%;">
+                      <img src="~/assets/Index/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png"
+                        alt=""
+                        srcset="//dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=50 50w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=75 75w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=100 100w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=150 150w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=200 200w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=300 300w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=400 400w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=500 500w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=750 750w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=1000 1000w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=1250 1250w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=1500 1500w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=1750 1750w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=2000 2000w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=2250 2250w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=2500 2500w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=2750 2750w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=3000 3000w, //dinh-dinh.com/cdn/shop/files/testimonial_3_2076b5ec-918c-45e9-a997-34810d4e2659.png?v=1684079394&amp;width=3200 3200w"
+                        width="3200" height="1866" loading="lazy" sizes="
+                      (min-width: 1200px) calc((1200px - 116px) * 1 /  3),
+                      (min-width: 990px) calc((100vw - 116px) * 1 / 3),
+                      (min-width: 750px) calc((100vw - 100px) * 1 / 1),
+                      calc((100vw - 30px) * 1 / 1)
+                    " class="multicolumn-card__image">
+                    </div>
+                  </div>
+                  <div class="multicolumn-card__info"></div>
+                </div>
+              </li>
+              <li id="Slide-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce-4"
+                class="multicolumn-list__item grid__item center scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 4;">
+                <div class="multicolumn-card content-container">
+                  <div
+                    class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                    <div class="media media--transparent media--adapt" style="padding-bottom: 50.55467511885895%;">
+                      <img src="~/assets/Index/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png"
+                        alt=""
+                        srcset="//dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=50 50w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=75 75w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=100 100w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=150 150w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=200 200w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=300 300w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=400 400w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=500 500w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=750 750w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=1000 1000w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=1250 1250w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=1500 1500w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=1750 1750w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=2000 2000w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=2250 2250w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=2500 2500w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=2750 2750w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=3000 3000w, //dinh-dinh.com/cdn/shop/files/testimonial_4_5bf18353-c67d-4603-bd68-80142369ddca.png?v=1684079583&amp;width=3200 3200w"
+                        width="3200" height="2186" loading="lazy" sizes="
+                      (min-width: 1200px) calc((1200px - 116px) * 1 /  3),
+                      (min-width: 990px) calc((100vw - 116px) * 1 / 3),
+                      (min-width: 750px) calc((100vw - 100px) * 1 / 1),
+                      calc((100vw - 30px) * 1 / 1)
+                    " class="multicolumn-card__image">
+                    </div>
+                  </div>
+                  <div class="multicolumn-card__info"></div>
+                </div>
+              </li>
+              <li id="Slide-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce-5"
+                class="multicolumn-list__item grid__item center scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 5;">
+                <div class="multicolumn-card content-container">
+                  <div
+                    class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                    <div class="media media--transparent media--adapt" style="padding-bottom: 50.55467511885895%;">
+                      <img src="~/assets/Index/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png"
+                        alt=""
+                        srcset="//dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=50 50w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=75 75w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=100 100w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=150 150w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=200 200w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=300 300w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=400 400w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=500 500w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=750 750w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=1000 1000w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=1250 1250w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=1500 1500w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=1750 1750w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=2000 2000w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=2250 2250w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=2500 2500w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=2750 2750w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=3000 3000w, //dinh-dinh.com/cdn/shop/files/testimonial_5_1a4575fb-c0e2-4f66-8211-96bb70103b60.png?v=1684079394&amp;width=3200 3200w"
+                        width="3200" height="1618" loading="lazy" sizes="
+                      (min-width: 1200px) calc((1200px - 116px) * 1 /  3),
+                      (min-width: 990px) calc((100vw - 116px) * 1 / 3),
+                      (min-width: 750px) calc((100vw - 100px) * 1 / 1),
+                      calc((100vw - 30px) * 1 / 1)
+                    " class="multicolumn-card__image">
+                    </div>
+                  </div>
+                  <div class="multicolumn-card__info"></div>
+                </div>
+              </li>
+              <li id="Slide-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce-6"
+                class="multicolumn-list__item grid__item center scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 6;">
+                <div class="multicolumn-card content-container">
+                  <div
+                    class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                    <div class="media media--transparent media--adapt" style="padding-bottom: 50.55467511885895%;">
+                      <img src="~/assets/Index/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png"
+                        alt=""
+                        srcset="//dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=50 50w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=75 75w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=100 100w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=150 150w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=200 200w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=300 300w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=400 400w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=500 500w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=750 750w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=1000 1000w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=1250 1250w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=1500 1500w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=1750 1750w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=2000 2000w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=2250 2250w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=2500 2500w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=2750 2750w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=3000 3000w, //dinh-dinh.com/cdn/shop/files/testimonial_6_42e87834-5d24-4af1-9bd8-624283884d5b.png?v=1684079489&amp;width=3200 3200w"
+                        width="3200" height="1618" loading="lazy" sizes="
+                      (min-width: 1200px) calc((1200px - 116px) * 1 /  3),
+                      (min-width: 990px) calc((100vw - 116px) * 1 / 3),
+                      (min-width: 750px) calc((100vw - 100px) * 1 / 1),
+                      calc((100vw - 30px) * 1 / 1)
+                    " class="multicolumn-card__image">
+                    </div>
+                  </div>
+                  <div class="multicolumn-card__info"></div>
+                </div>
+              </li>
+            </ul>
+          </slider-component>
+          <div class="center"></div>
+        </div>
+      </div>
+
+
+      <style>
+        #shopify-section-template--19481095569695__10665e36-b5da-457d-b068-921a98557fce .slider-counter {
+          font-family: "grandstander";
+          font-size: 17px;
+        }
+      </style>
+    </section>
+    <section id="shopify-section-template--19481095569695__250f06ca-3c36-45d6-898c-924d1d8e7ae5"
+      class="shopify-section section">
+      <link href="~/assets/Index/section-multicolumn.css" rel="stylesheet" type="text/css" media="all">
+      <link href="~/assets/Index/component-slider.css" rel="stylesheet" type="text/css" media="all">
+      <style data-shopify="">
+
+      </style>
+      <div class="multicolumn color-background-1 gradient background-none">
+        <div
+          class="page-width section-template--19481095569695__250f06ca-3c36-45d6-898c-924d1d8e7ae5-padding isolate scroll-trigger animate--slide-in scroll-trigger--offscreen"
+          data-cascade="">
+          <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+            <h2 class="title inline-richtext h2">
+              Bạn muốn tạo hình xăm cho riêng mình?
+            </h2>
+          </div><slider-component class="slider-mobile-gutter">
+            <ul class="multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop"
+              id="Slider-template--19481095569695__250f06ca-3c36-45d6-898c-924d1d8e7ae5" role="list">
+              <li id="Slide-template--19481095569695__250f06ca-3c36-45d6-898c-924d1d8e7ae5-1"
+                class="multicolumn-list__item grid__item scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 1;">
+                <div class="multicolumn-card content-container">
+                  <div class="multicolumn-card__info">
+                    <div class="rte">
+                      <p>Liên hệ ngay với tụi mình qua email, Fanpage hoặc Zalo nha!</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li id="Slide-template--19481095569695__250f06ca-3c36-45d6-898c-924d1d8e7ae5-2"
+                class="multicolumn-list__item grid__item scroll-trigger animate--slide-in scroll-trigger--offscreen"
+                data-cascade="" style="--animation-order: 2;">
+                <div class="multicolumn-card content-container">
+                  <div class="multicolumn-card__info">
+                    <div class="rte">
+                      <ul>
+                        <li>Gửi email tới phuongbui41102@gmail.com hoặc gửi câu hỏi của bạn qua form <a
+                            href="contact.html" target="_blank" title="CONTACT">tại đây</a></li>
+                        <li>Facebook Fanpage <a href="https://www.facebook.com/vietink24" target="_blank"
+                            title="VietInk Fanpage">tại đây</a></li>
+                        <li>Liên hệ qua Zalo <a href="#" target="_blank"
+                            title="Zalo OA">tại đây</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </slider-component>
+          <div class="center"></div>
+        </div>
+      </div>
+
+
+    </section>
+  
+    <section id="shopify-section-template--19481095569695__600783ff-c0ca-4967-b033-f95a35bbbd6c"
+      class="shopify-section section">
+
+      <div class="color-background-1 gradient">
+        <div class="section-template--19481095569695__600783ff-c0ca-4967-b033-f95a35bbbd6c-padding">
+
+        </div>
+      </div>
+
+
+    </section>
+  </main>
+  <div id="WebPixelsManagerSandboxContainer"><iframe src="~/assets/Index/saved_resource.html"
+      id="web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX-9945bf9fw9f0493d3pc3794183m37925d68"
+      name="web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX-9945bf9fw9f0493d3pc3794183m37925d68"
+      sandbox="allow-scripts allow-forms" tabindex="-1" aria-hidden="true"
+      style="display:none; height:0; width:0; visibility: hidden;"></iframe></div>
+  <script src="~/assets/Index/js" async=""></script>
+
+  <!-- BEGIN sections: footer-group -->
+  <section id="shopify-section-sections--19481096028447__dc163481-4d1e-4c0b-ab3d-ff14ea0f8337"
+    class="shopify-section shopify-section-group-footer-group section">
+  
+    <div class="color-background-1 gradient">
+      <div class="section-sections--19481096028447__dc163481-4d1e-4c0b-ab3d-ff14ea0f8337-padding">
+        <div style="position:relative;">
+          <div class="custom-shape-divider-bottom-1683974973">
+
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+              preserveAspectRatio="none">
+              <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+            </svg>
+
+          </div>
+        </div>
+
+        <style>
+          .custom-shape-divider-bottom-1683974973 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+          }
+
+          .custom-shape-divider-bottom-1683974973 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 30px;
+          }
+
+          .custom-shape-divider-bottom-1683974973 .shape-fill {
+            fill: #FFD201;
+          }
+
+          .price {
+            font-family: grandstander;
+            font-size: 20px;
+          }
+
+          .rating-star:before {
+            -webkit-text-fill-color: #FFD700;
+          }
+        </style>
+      </div>
+    </div>
+
+
+  </section>
+  <div id="shopify-section-sections--19481096028447__footer" class="shopify-section shopify-section-group-footer-group">
+    <link href="~/assets/Index/section-footer.css" rel="stylesheet" type="text/css" media="all">
+    <link href="~/assets/Index/component-newsletter.css" rel="stylesheet" type="text/css" media="all">
+    <link href="~/assets/Index/component-list-menu.css" rel="stylesheet" type="text/css" media="all">
+    <link href="~/assets/Index/component-list-payment.css" rel="stylesheet" type="text/css" media="all">
+    <link href="~/assets/Index/component-list-social.css" rel="stylesheet" type="text/css" media="all">
+    <style data-shopify="">
+
+    </style>
+    <footer class="footer color-accent-1 gradient section-sections--19481096028447__footer-padding">
+      <div class="footer__content-top page-width">
+        <div
+          class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet scroll-trigger animate--slide-in scroll-trigger--offscreen"
+          data-cascade="">
+          <div class="footer-block grid__item scroll-trigger animate--slide-in scroll-trigger--offscreen"
+            data-cascade="" style="--animation-order: 1;">
+            <h2 class="footer-block__heading inline-richtext">HÌNH XĂM DÁN VIETINK</h2>
+            <div class="footer-block__details-content rte">
+              <p><em><strong>"Khi bạn dán hình xăm, bạn không thể không vui!"</strong></em></p>
+              <p>Đây là điều mà VietInk đã thấy được ở tất cả những khách hàng khi sử dụng sản phẩm hình xăm dán của tụi
+                mình. Và đây cũng là mục tiêu lớn nhất của VietInk từ khi thành lập vào 2023 - Thể hiện cá tính cho
+                mọi người thông qua những chiếc hình xăm dán đa dạng màu sắc và mẫu mã. </p>
+            </div>
+          </div>
+          <div class="footer-block grid__item scroll-trigger animate--slide-in scroll-trigger--offscreen"
+            data-cascade="" style="--animation-order: 2;">
+            <h2 class="footer-block__heading inline-richtext">LIÊN HỆ VỚI TỤI MÌNH NHÉ!</h2>
+            <div class="footer-block__details-content rte">
+              <ul>
+                <li>Email: phuongbui41102@gmail.com</li>
+                <li>Tiktok tại <a href="https://www.tiktok.com/vietink23" target="_blank"
+                    title="https://www.tiktok.com/vietink23">vietink23</a></li>
+                <li>Facebook tại <a href="https://www.facebook.com/vietink24" target="_blank"
+                    title="https://www.facebook.com/vietink24">vietink24</a></li>
+                <li>Zalo <a href="#" target="_blank" title="Zalo OA">tại đây</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-block--newsletter scroll-trigger animate--slide-in scroll-trigger--offscreen"
+          data-cascade="">
+          <ul class="footer__list-social list-unstyled list-social">
+            <li class="list-social__item">
+              <a href="https://www.facebook.com/vietink24" class="link list-social__link"><svg aria-hidden="true"
+                  focusable="false" class="icon icon-facebook" viewBox="0 0 18 18">
+                  <path fill="currentColor"
+                    d="M16.42.61c.27 0 .5.1.69.28.19.2.28.42.28.7v15.44c0 .27-.1.5-.28.69a.94.94 0 01-.7.28h-4.39v-6.7h2.25l.31-2.65h-2.56v-1.7c0-.4.1-.72.28-.93.18-.2.5-.32 1-.32h1.37V3.35c-.6-.06-1.27-.1-2.01-.1-1.01 0-1.83.3-2.45.9-.62.6-.93 1.44-.93 2.53v1.97H7.04v2.65h2.24V18H.98c-.28 0-.5-.1-.7-.28a.94.94 0 01-.28-.7V1.59c0-.27.1-.5.28-.69a.94.94 0 01.7-.28h15.44z">
+                  </path>
+                </svg>
+                <span class="visually-hidden">Facebook</span>
+              </a>
+            </li>
+            <li class="list-social__item">
+              <a href="https://www.tiktok.com/vietink23" class="link list-social__link">
+                <!-- <svg
+                  aria-hidden="true" focusable="false" class="icon icon-tiktok" viewBox="0 0 18 18">
+                  <path fill="currentColor"
+                    d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z">
+                  </path>
+                  <path fill="currentColor"
+                    d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z">
+                  </path>
+                </svg> -->
+                <img src="~/assets/tiktoklogo.svg" class="icon">
+                <span class="visually-hidden">Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__content-bottom scroll-trigger animate--slide-in scroll-trigger--offscreen" data-cascade="">
+        <div class="footer__content-bottom-wrapper page-width">
+          <div class="footer__column footer__localization isolate"></div>
+          <div class="footer__column footer__column--info"></div>
+        </div>
+        <div class="footer__content-bottom-wrapper page-width footer__content-bottom-wrapper--center">
+          <div class="footer__copyright caption">
+            <small class="copyright__content">© 2024, <a asp-page="/index" title="">VietInk</a></small>
+            <small class="copyright__content"><a target="_blank" rel="nofollow"
+                href="https://www.shopify.com/?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">
+              </a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <section id="shopify-section-sections--19481096028447__45cc7577-3add-4f52-abc2-6732fd9c7829"
+    class="shopify-section shopify-section-group-footer-group section">
+    <style data-shopify="">
+
+    </style>
+    <div class="color-background-1 gradient">
+      <div class="section-sections--19481096028447__45cc7577-3add-4f52-abc2-6732fd9c7829-padding">
+        <style>
+          .button {
+            font-family: "Grandstander";
+          }
+
+          .button--primary {
+            border: 3px solid #000;
+            box-shadow: 3px 5px #000;
+          }
+
+          .button--primary:active {
+            box-shadow: 0 0 #000;
+            transform: translateX(3px) translateY(5px);
+          }
+
+          .button--primary:hover {
+            box-shadow: 0 0 #000;
+            transform: translateX(3px) translateY(5px);
+          }
+
+          .button:after {
+            display: none !important;
+          }
+
+          .cart__checkout-button {
+            border: 3px solid #000;
+            box-shadow: 3px 5px #000;
+          }
+
+          .cart__checkout-button:hover {
+            box-shadow: 0 0 #000;
+            transform: translateX(3px) translateY(5px);
+          }
+
+          .cart__checkout-button:active {
+            box-shadow: 0 0 #000;
+            transform: translateX(3px) translateY(5px);
+          }
+
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          .h0,
+          .h1,
+          .h2,
+          .h3,
+          .h4,
+          .h5 {
+            font-family: 'Grandstander';
+          }
+
+          .main-page-title {
+            display: none !important;
+          }
+        </style>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- END sections: footer-group -->
+
+</body>
+
+
+</html>

@@ -1,0 +1,150 @@
+﻿@page
+@model VietInkWebApp.Pages.admin.Orders.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@*<h1>Details</h1>*@
+<div class="row">
+    <div class="col-sm-6">
+        <h4>Đơn hàng</h4>
+        <hr />
+        <dl class="row d-flex">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.OrderDate)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.OrderDate)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.RequiredDate)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.RequiredDate)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.ShippedDate)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.ShippedDate)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.Freight)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.Freight)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.ShipAddress)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.ShipAddress)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.ShipCity)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.ShipCity)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.ShipRegion)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.ShipRegion)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.ShipPostalCode)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.ShipPostalCode)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.ShipCountry)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.ShipCountry)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.PhoneNumber)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.PhoneNumber)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.Note)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.Note)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.Discount)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.Discount)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Order.User)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Order.User.UserId)
+            </dd>
+        </dl>
+    </div>
+    <div class="col-sm-6">
+        <h4>Chi tiết đơn hàng</h4>
+        <hr />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.OrderDetail[0].Product.ProductId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.OrderDetail[0].Product.ProductName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.OrderDetail[0].UnitPrice)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.OrderDetail[0].Quantity)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.OrderDetail[0].Product.Image)
+                    </th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderDetail)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Product.ProductId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Product.ProductName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UnitPrice)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantity)
+                        </td>
+                        <td>
+                            <div>
+                                <img width="70px;" src="~/assets/Index/eggufo1.jpg" alt="book" />
+                            </div> 
+                        </td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Order?.OrderId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
