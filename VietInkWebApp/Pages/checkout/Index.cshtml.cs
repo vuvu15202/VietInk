@@ -54,14 +54,15 @@ namespace VietInkWebApp.Pages.checkout
                 _context.Users.Add(User);
                 await _context.SaveChangesAsync();
 
+
                 Order.UserId = User.UserId;
                 Order.OrderDate = DateTime.Now;
                 Order.ShipCountry = "Việt Nam";
                 Order.Note = "22000 ship";
+                Order.Freight = Cart.CartItems.Sum(cartItem => cartItem.UnitPrice * cartItem.Quantity) +22000;
 
                 _context.Orders.Add(Order);
                 await _context.SaveChangesAsync();
-
 
                 var orderDetails = new List<OrderDetail>();
                 foreach(var item in Cart.CartItems){
@@ -74,6 +75,7 @@ namespace VietInkWebApp.Pages.checkout
                         });
                 }
                 _context.OrderDetails.AddRange(orderDetails);
+
                 await _context.SaveChangesAsync();
                 setCartCookies();
             }catch(Exception ex)

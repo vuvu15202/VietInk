@@ -24,8 +24,7 @@ namespace VietInkWebApp.Pages.admin.Orders
         {
             if (_context.Orders != null)
             {
-                Order = await _context.Orders
-                .Include(o => o.User).ToListAsync();
+                Order = await _context.Orders.Include(o => o.User).Where(o => o.User != null).ToListAsync();
             }
         }
     }

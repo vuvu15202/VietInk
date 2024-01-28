@@ -56,13 +56,14 @@ namespace VietInkWebApp.Pages.productdetail
 
 
             var product = await _context.Products.FirstOrDefaultAsync(m => m.ProductId == id);
-            if (product == null)
-            {
-            }
-            else
+            if (product != null)
             {
                 Product = product;
+                ProductId = product.ProductId;
+                UnitPrice = product.UnitPrice == null ? 0: (int)product.UnitPrice;
             }
+            product.UnitsInStock = 0;
+
         }
 
 
