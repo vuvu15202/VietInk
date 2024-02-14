@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace VietInkWebApp.Entities
 {
-    public partial class TattooshopContext : DbContext
+    public partial class TattooshopContext :IdentityDbContext<IdentityUser>
     {
         public TattooshopContext()
         {
@@ -38,6 +40,7 @@ namespace VietInkWebApp.Entities
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Order>(entity =>
             {
                 entity.Property(e => e.OrderId).HasColumnName("OrderID");

@@ -9,97 +9,149 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VietInkWebApp
 build_property.RootNamespace = VietInkWebApp
-build_property.ProjectDir = E:\Materials\FALL23\EXE101\Vietink\VietInk\VietInkWebApp\
+build_property.ProjectDir = E:\Materials\FALL23\EXE101\abc\VietInk\VietInkWebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Materials\FALL23\EXE101\Vietink\VietInk\VietInkWebApp
+build_property.MSBuildProjectDirectory = E:\Materials\FALL23\EXE101\abc\VietInk\VietInkWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Orders/Create.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0xvZ2luUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Orders/Delete.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cT3JkZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Orders/Details.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Orders/Edit.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Orders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cT3JkZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Orders/Index.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Products/Create.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Products/Delete.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Products/Details.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Products/Edit.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/admin/Products/Index.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/checkout/Index.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cX0xvZ2luUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/checkout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2hlY2tvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/contact/Index.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/Error.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/Index.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/Privacy.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/productdetail/Index.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/productdetail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvZHVjdGRldGFpbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/products/Index.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/shoppingcart/Index.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/shoppingcart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2hvcHBpbmdjYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/_ViewImports.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/_ViewStart.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Materials/FALL23/EXE101/Vietink/VietInk/VietInkWebApp/Pages/Shared/_Layout.cshtml]
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xof4ns7you
