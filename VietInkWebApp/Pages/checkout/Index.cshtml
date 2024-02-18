@@ -59,7 +59,9 @@
                             <header
                               class="_1fragemeg _1fragemfy _1fragemgm _1fragemh3 _1fragemeo _1fragemes _1fragemha _16s97g7c _16s97g7k _16s97g718 _16s97g71g    _16s97g7ac"
                               style="--_16s97g78: 1fr; --_16s97g7g: minmax(0, 1fr); --_16s97g714: minmax(auto, max-content) minmax(0, 1fr) minmax(auto, max-content); --_16s97g71c: minmax(0, 1fr);">
-                              <span><a id="cart-link" aria-label="Giỏ hàng" href="shoppingcart.html"
+                              <span>
+                                  <a id="cart-link" aria-label="Giỏ hàng"
+                                                                   asp-page="/shoppingcart/Index"
                                   class="s2kwpi1 _1fragemeg _1fragemmd _1fragemmm s2kwpi2 _1fragemm5 _1fragemm8"><span
                                     class="_1fragemht _1fragem1w _1fragemdo _1fragemdk a8x1wua _1fragemfs a8x1wuj a8x1wum"><svg
                                       xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" focusable="false"
@@ -68,13 +70,16 @@
                                         d="M2.675 10.037 3.072 4.2h7.856l.397 5.837A2.4 2.4 0 0 1 8.932 12.6H5.069a2.4 2.4 0 0 1-2.394-2.563">
                                       </path>
                                       <path d="M4.9 3.5a2.1 2.1 0 1 1 4.2 0v1.4a2.1 2.1 0 0 1-4.2 0z"></path>
-                                    </svg></span></a></span>
+                                    </svg></span>
+                                    </a></span>
                               <div class="_1fragemfu _1fragemg0 _1fragemes _1fragemeg">
                                 <h1 class="n8k95w1 _1fragemeg n8k95w2">
-                                  <div class="_1fragemfs _1fragemeg _16s97g730" style="--_16s97g72w: 6rem;"><span><a
-                                        href="index.html"
-                                        class="s2kwpi1 _1fragemeg _1fragemmd _1fragemmm s2kwpi3 _1fragemm4 _1fragemm8"><img src="~/assets/LOGO1.png" alt="" height="60" class="hmHjN"
-                                          style="max-width: min(100%, 60px);"></a></span></div> <span
+                                  <div class="_1fragemfs _1fragemeg _16s97g730" style="--_16s97g72w: 6rem;"><span>
+                                      <a asp-page="/Index">
+                                        <img src="~/assets/LOGO1.png" alt="" height="60" class="hmHjN"
+                                          style="max-width: min(100%, 60px);">
+                                      </a>
+                                      </span></div> <span
                                     class="_1fragemm0">Thanh toán</span>
                                 </h1>
                               </div>
@@ -874,6 +879,8 @@
     <div id="forwarding-external-new-window-message" aria-hidden="true" class="_1fragemm0">Opens external website in a
       new window.</div>
   </div>
+
+
   <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
@@ -884,7 +891,25 @@
             await Html.RenderPartialAsync("_ValidationScriptsPartial");
         }
     }
-  
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/toastr.min.js"></script>
+<link href="~/css/toastr.min.css" rel="stylesheet" />
+
+@if( Model.Status == 1)
+{
+    <script>
+        toastr.success("Đặt hàng thành công!", 'Notification', { timeOut: 3000 });
+    </script>
+}
+else if (Model.Status == 2)
+{
+    <script>
+        toastr.error("Giỏ hàng trống hoặc Số lượng sản phẩm trong kho không đủ! Bạn vui lòng cập nhật giỏ hàng!", 'Notification', { timeOut: 3000 });
+    </script>
+}
+
+
+
 </body><iframe id="__JSBridgeIframe_1.0__" title="jsbridge___JSBridgeIframe_1.0__" style="display: none;"
   
 </html>

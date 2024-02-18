@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8paFpjyFXECjc6PCmtbdvQAAAAACAAAAAAAQZgAAAAEAACAAAABiekuJ+5IWhfIXmQPPUQ/VtAYbwDXE0C0G3+5jPGYS7gAAAAAOgAAAAAIAACAAAABceay5kpFXk24Q/Hr+VDfIc9A2fTTpuOCJtN2zfAqcHiAAAADeUDnynAga2d6QouOEyr+sdxS2hUOk/1vQVIiIwTyDBUAAAACX1OITSPGHMASeZtDb0J70Ki0AqGxrqlpcyU1ocq8HRMrgN+wdRn68qVSj26LQgoc+iJL8y8+H8sVh+q7R5uqD</EncryptedPassword>
+    <History>True|2024-02-17T15:42:41.0967920Z;True|2024-02-17T21:23:45.9527332+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyDB">
+      <Value>Data Source=SQL8003.site4now.net%3bInitial Catalog=db_aa498e_vietink%3bUser Id=db_aa498e_vietink_admin%3bPassword=Dtvuvu1522002</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

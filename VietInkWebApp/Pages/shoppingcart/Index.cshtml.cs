@@ -20,6 +20,9 @@ namespace VietInkWebApp.Pages.shoppingcart
         }
 
         public Cart Cart { get; set; }
+
+        [BindProperty]
+        public int Status { get; set; } = 0;
         //[BindProperty]
         //public int Quantity { get; set; } 
         //[BindProperty]
@@ -44,10 +47,28 @@ namespace VietInkWebApp.Pages.shoppingcart
                         }
                         else
                         {
-                            foreach (var item in Cart.CartItems.Where(x => x.ProductId == productId))
+                            if (_context.Products.SingleOrDefault(p => p.ProductId == productId).UnitsInStock >= quantity)
                             {
-                                item.Quantity = (int)quantity;
+                                foreach (var item in Cart.CartItems.Where(x => x.ProductId == productId))
+                                {
+                                    item.Quantity = (int)quantity;
+                                    Status = 1;
+                                }
                             }
+                            else if(_context.Products.SingleOrDefault(p => p.ProductId == productId).UnitsInStock == 0)
+                            {
+                                Cart.CartItems.RemoveAll(item => item.ProductId == productId);
+                                Status = 3;
+                            }
+                            else
+                            {
+                                foreach (var item in Cart.CartItems.Where(x => x.ProductId == productId))
+                                {
+                                    item.Quantity = (int)_context.Products.SingleOrDefault(p => p.ProductId == productId).UnitsInStock;
+                                }
+                                Status = 2;
+                            }
+                            
                         }
                         
                     }

@@ -1110,7 +1110,7 @@
               data-url="/products/space-collection" class="product__info-container">
               <div class="product__title">
                 <h1>@Product.ProductName</h1>
-                <a href="https://dinh-dinh.com/products/space-collection" class="product__title">
+                <a href="#" class="product__title">
                   <h2 class="h1">
                     @Product.ProductName
                   </h2>
@@ -1137,10 +1137,7 @@
 
 
               <span class="tattoos">@Product.QuantityPerUnit</span>
-
-
-
-              <span class="item_sold">0 đã bán</span>
+                <span class="item_sold">Còn @Product.UnitsInStock sản phẩm</span>
 
               <div id="shopify-block-ff96b6f9-b326-4ee9-9fd8-6da9e3fd4506" class="shopify-block shopify-app-block">
 
@@ -1395,9 +1392,9 @@
                   </div>
                   
                       @*<input  type="hidden" name="id" value="44899775086879" class="product-variant-id">*@
-                    <div class="product-form__buttons">
-                        <button id="ProductSubmitButton-template--19481095733535__main"
-                        type="submit" name="add" class="product-form__submit button button--full-width button--primary">
+                      @if(Model.Product.UnitsInStock > 0){
+                          <div class="product-form__buttons">
+                        <button id="ProductSubmitButton-template--19481095733535__main" type="submit" name="add" class="product-form__submit button button--full-width button--primary">
                         <span>Cho Vào Giỏ
                         </span>
                         <div class="loading-overlay__spinner hidden">
@@ -1407,6 +1404,9 @@
                           </svg>
                         </div>
                       </button></div>
+
+                      }
+                    
                       @*<input id="quantityForm" type="hidden" name="Quantity" asp-for="@Model.Quantity">*@
                       <input type="hidden" asp-for="@Model.ProductId">
                       <input type="hidden" asp-for="@Model.UnitPrice">
@@ -1559,7 +1559,8 @@
       <style data-shopify="">
         
       </style>
-      <div class="color-background-1 gradient no-js-hidden">
+      @*mua cùng*@
+      @*<div class="color-background-1 gradient no-js-hidden">
         <product-recommendations
           class="related-products page-width section-template--19481095733535__related-products-padding isolate scroll-trigger animate--slide-in product-recommendations--loaded"
           data-url="/recommendations/products?section_id=template--19481095733535__related-products&amp;product_id=8237550272799&amp;limit=8">
@@ -2413,7 +2414,7 @@
           </ul>
 
         </product-recommendations>
-      </div>
+      </div>*@
 
 
     </section>
@@ -2719,13 +2720,13 @@
         });
     </script>*@
 }
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/toastr.min.js"></script>
     <link href="~/css/toastr.min.css" rel="stylesheet" />
     <script>
         toastr.success("Add to cart successfully!", 'Success Alert', { timeOut: 3000 });
         toastr.warning("Add to cart successfully!", 'Success Alert', { timeOut: 3000 });
-    </script>
+    </script>*@
 
 
 </body>

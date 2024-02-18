@@ -8,8 +8,31 @@
 }
 
 
-
-<h1>Quản Lí Đơn Hàng </h1>
+<div class="row">
+    <div class="col-sm-5">
+        <h1>Quản Lí Đơn Hàng </h1>
+    </div>
+    <div class="col-sm-7">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" asp-page="./Index" asp-route-filter="1"><div class="btn btn-info">Chưa xử lí</div></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-page="./Index" asp-route-filter="2"><div class="btn btn-warning">Đang xử lí</div></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-page="./Index" asp-route-filter="3"><div class="btn btn-success">Đã giao</div></a>
+            </li>
+            <li class="nav-item">
+                @*class = "disabled""    aria-disabled="true"     tabindex="-1" *@
+                <a class="nav-link " asp-page="./Index" asp-route-filter="4" ><div class="btn btn-danger">Đã hủy</div></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-page="./Index" asp-route-filter="5"><div class="btn btn-dark">Tất cả</div></a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 <p>
     @*<a asp-page="Create">Create New</a>*@
@@ -18,25 +41,26 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Order[0].User)
+                @*@Html.DisplayNameFor(model => model.Order[0].User)*@
+                Tên KH
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Order[0].ShipAddress)
+                Địa chỉ
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Order[0].PhoneNumber)
+                Số ĐT
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Order[0].OrderDate)
+                Ngày đặt
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Order[0].RequiredDate)
+                Ngày giao dự kiến
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Order[0].ShippedDate)
+                Ngày giao
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Order[0].Freight)
+                Giá trị đơn
             </th>
             
             @*<th>
@@ -52,7 +76,7 @@
                 @Html.DisplayNameFor(model => model.Order[0].ShipCountry)
             </th>*@
             
-            <th></th>
+            <th>Sửa trạng thái</th>
         </tr>
     </thead>
     <tbody>
@@ -63,7 +87,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.User.FirstName) @Html.DisplayFor(modelItem => item.User.LastName)
             </td>
-            <td>
+            <td style="width: 200px;">
                 @Html.DisplayFor(modelItem => item.ShipAddress), @Html.DisplayFor(modelItem => item.ShipRegion), @Html.DisplayFor(modelItem => item.ShipCity), @Html.DisplayFor(modelItem => item.ShipCountry)
             </td>
             <td>
@@ -73,24 +97,88 @@
                 @Html.DisplayFor(modelItem => item.OrderDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.RequiredDate)
+                @if (item.RequiredDate != null && item.ShippedDate != null)
+                {
+                    @if (item.RequiredDate == item.ShippedDate)
+                    {
+                        <div class="text-danger text-decoration-line-through"> @Html.DisplayFor(modelItem => item.RequiredDate) </div>
+                    }
+                    else
+                    {
+                        @Html.DisplayFor(modelItem => item.RequiredDate) 
+                    }
+                }
+                else if (item.RequiredDate != null && item.ShippedDate == null)
+                {
+                    @Html.DisplayFor(modelItem => item.RequiredDate)
+                }
+                
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ShippedDate)
+                @if (item.RequiredDate != null && item.ShippedDate != null)
+                {
+                    @if (item.RequiredDate < item.ShippedDate)
+                    {
+                        <div class="text-danger"> @Html.DisplayFor(modelItem => item.ShippedDate) </div>
+
+                    }
+                    else if (item.RequiredDate > item.ShippedDate)
+                    {
+                        <div class="text-success"> @Html.DisplayFor(modelItem => item.ShippedDate) </div>
+                    }
+                    else
+                    {
+                        <div class="text-danger text-decoration-line-through"> @Html.DisplayFor(modelItem => item.ShippedDate) </div>
+                    }
+                }
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Freight)
+                @String.Format("{0:N0}", item.Freight) ₫
+                @*@Html.DisplayFor(modelItem => item.Freight)*@
             </td>
             
 
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.OrderId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.OrderId">Details</a> 
+                <div>
+                    <a asp-page="./Edit" asp-route-id="@item.OrderId"><div class="btn btn-warning mb-2" style="font-size: 13px;">Cập nhật</div></a> |
+                            <a asp-page="./Details" asp-route-id="@item.OrderId"><div class="btn btn-warning mb-2" style="font-size: 13px;">Chi tiết</div></a>
+                </div>
+                <div>
+                    @if (@item.RequiredDate == null && @item.ShippedDate == null)
+                    {
+                        <a asp-page="./Index" asp-route-filter="@Model.CurrentFilter" asp-route-processing="@item.OrderId"><div class="btn btn-info me-2" style="font-size: 13px;">Xác nhận</div></a> 
+                    }
+                    @if (@item.RequiredDate != null && @item.ShippedDate == null)
+                    {
+                        <a asp-page="./Index" asp-route-filter="@Model.CurrentFilter" asp-route-shipped="@item.OrderId"><div class="btn btn-success" style="font-size: 13px;">Đã giao</div></a>
+                    }
+                    @if (@item.RequiredDate == null && @item.ShippedDate == null)
+                    {
+                        <a asp-page="./Index" asp-route-filter="@Model.CurrentFilter" asp-route-cancel="@item.OrderId"><div class="btn btn-danger" style="font-size: 13px;">Hủy</div></a>
+                    }
+                </div>
+                
+                
                 @*| <a asp-page="./Delete" asp-route-id="@item.OrderId">Delete</a>*@
             </td>
         </tr>
         }
         
+        
+
+
 }
     </tbody>
 </table>
+@if (Model.Status == 1)
+{
+    <script>
+        toastr.success("Cập nhật đơn hàng thành công!", 'Notification', { timeOut: 3000 });
+    </script>
+}
+else if (Model.Status == 2)
+{
+    <script>
+        toastr.error("Có lỗi xảy ra, vui lòng thử lại!", 'Notification', { timeOut: 3000 });
+    </script>
+}

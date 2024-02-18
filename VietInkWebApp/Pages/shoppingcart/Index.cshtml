@@ -700,7 +700,9 @@
                                                 fill="currentColor">
                                             </path>
                                         </svg>
-                                        ⭐️ 10% Off Khi Mua 3 Bộ Sưu Tập Trở Lên
+                                        @*⭐️ 10% Off Khi Mua 3 Bộ Sưu Tập Trở Lên*@
+                                        ⭐️ Còn @item.Product.UnitsInStock sản phẩm
+
                                     </li>
                                 </ul>
                             </td>
@@ -1114,3 +1116,23 @@
 
 
 </html>
+
+
+@if (Model.Status == 1)
+{
+    <script>
+        toastr.success("Thay đổi giỏ hàng thành công!", 'Notification', { timeOut: 3000 });
+    </script>
+}
+else if (Model.Status == 2)
+{
+    <script>
+        toastr.warning("Sorry, Số lượng sản phẩm trong kho không đủ!", 'Notification', { timeOut: 3000 });
+    </script>
+}
+else if (Model.Status == 3)
+{
+    <script>
+        toastr.warning("Sorry, Sản phẩm này đã hết hàng!", 'Notification', { timeOut: 3000 });
+    </script>
+}

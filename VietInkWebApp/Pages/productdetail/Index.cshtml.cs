@@ -62,7 +62,6 @@ namespace VietInkWebApp.Pages.productdetail
                 ProductId = product.ProductId;
                 UnitPrice = product.UnitPrice == null ? 0: (int)product.UnitPrice;
             }
-            product.UnitsInStock = 0;
 
         }
 
