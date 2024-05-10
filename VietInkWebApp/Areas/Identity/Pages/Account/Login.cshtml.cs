@@ -104,7 +104,7 @@ namespace VietInkWebApp.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
-            returnUrl ??= Url.Content("~/Admin/Products");
+            returnUrl ??= Url.Content("~/Admin/Orders");
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 

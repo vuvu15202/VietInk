@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/aboutus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWJvdXR1c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Materials/FALL23/EXE101/abc/VietInk/VietInkWebApp/Pages/admin/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

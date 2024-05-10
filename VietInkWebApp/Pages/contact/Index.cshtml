@@ -1,6 +1,23 @@
 ﻿@page
 @model VietInkWebApp.Pages.contact.IndexModel
+@using System.Text.Json;
+@using VietInkWebApp.Entities;
 @{
+}@{
+    var cartvalue = 0;
+    try
+    {
+        string jsonData = string.IsNullOrEmpty(Request.Cookies["Cart"]) ? "" : Request.Cookies["Cart"];
+        if (!jsonData.Equals(""))
+        {
+            cartvalue = JsonSerializer.Deserialize<Cart>(jsonData).NumberOfItem;
+        }
+        else cartvalue = 0;
+    }
+    catch (Exception ex)
+    {
+        cartvalue = 0;
+    }
 }
 
 <!DOCTYPE html>
@@ -215,7 +232,7 @@
                                                 Hướng Dẫn Dán
                                               </a></li> -->
                                             <li>
-                                                <a id="HeaderDrawer-về-dinh-dinh" asp-page="/contact/Index"
+                                                <a id="HeaderDrawer-về-dinh-dinh" asp-page="/aboutus/Index"
                                                    class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
                                                     Về VietInk
                                                 </a>
@@ -402,7 +419,7 @@
                             <span>Hướng Dẫn Dán</span>
                           </a></li> -->
                         <li>
-                            <a id="HeaderMenu-về-dinh-dinh" asp-page="/contact/Index"
+                            <a id="HeaderMenu-về-dinh-dinh" asp-page="/aboutus/Index"
                                class="header__menu-item list-menu__item link link--text focus-inset">
                                 <span>Về VietInk</span>
                             </a>
@@ -493,7 +510,7 @@
                         </svg>
                         <span class="visually-hidden">Cart</span>
                         <div class="cart-count-bubble">
-                            <span aria-hidden="true">4</span><span class="visually-hidden">4 items</span>
+                            <span aria-hidden="true">@cartvalue</span><span class="visually-hidden">4 items</span>
                         </div>
                     </a>
                 </div>

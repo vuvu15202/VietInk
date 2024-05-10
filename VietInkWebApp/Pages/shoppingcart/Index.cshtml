@@ -1,5 +1,7 @@
 ﻿@page
 @model VietInkWebApp.Pages.shoppingcart.IndexModel
+@using System.Text.Json;
+@using VietInkWebApp.Entities;
 @{
     var cart = Model.Cart;
     var total = 0;
@@ -9,6 +11,22 @@
         {
             total += item.Quantity * (int)item.Product.UnitPrice;
         }
+    }
+}
+@{
+    var cartvalue = 0;
+    try
+    {
+        string jsonData = string.IsNullOrEmpty(Request.Cookies["Cart"]) ? "" : Request.Cookies["Cart"];
+        if (!jsonData.Equals(""))
+        {
+            cartvalue = JsonSerializer.Deserialize<Cart>(jsonData).NumberOfItem;
+        }
+        else cartvalue = 0;
+    }
+    catch (Exception ex)
+    {
+        cartvalue = 0;
     }
 }
 
@@ -426,7 +444,7 @@
                             <span>Hướng Dẫn Dán</span>
                           </a></li> -->
                         <li>
-                            <a id="HeaderMenu-về-dinh-dinh" asp-page="/contact/Index"
+                            <a id="HeaderMenu-về-dinh-dinh" asp-page="/aboutus/Index"
                                class="header__menu-item list-menu__item link link--text focus-inset">
                                 <span>Về VietInk</span>
                             </a>
@@ -517,7 +535,7 @@
                         </svg>
                         <span class="visually-hidden">Cart</span>
                         <div class="cart-count-bubble">
-                            <span aria-hidden="true">4</span><span class="visually-hidden">4 items</span>
+                            <span aria-hidden="true">@cartvalue</span><span class="visually-hidden">4 items</span>
                         </div>
                     </a>
                 </div>
@@ -723,14 +741,14 @@
                                         </dt>
                                         <dd>
                                             <s class="cart-item__old-price price price--end">
-                                                87,000₫
+                                                @String.Format("{0:N0}", item.Quantity * 99000)₫
                                             </s>
                                         </dd>
                                         <dt class="visually-hidden">
                                             Sale price
                                         </dt>
                                         <dd class="price price--end">
-                                            78,300₫
+                                            @String.Format("{0:N0}", item.Quantity * item.Product.UnitPrice)₫
                                         </dd>
                                     </dl>
                                 </div>

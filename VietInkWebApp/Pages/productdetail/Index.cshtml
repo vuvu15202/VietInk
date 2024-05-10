@@ -1,7 +1,24 @@
 ﻿@page
 @model VietInkWebApp.Pages.productdetail.IndexModel
+@using System.Text.Json;
+@using VietInkWebApp.Entities;
 @{
     var Product = Model.Product;
+}
+@{
+    var cartvalue = 0;
+    try
+    {
+        string jsonData = string.IsNullOrEmpty(Request.Cookies["Cart"]) ? "" : Request.Cookies["Cart"];
+        if (!jsonData.Equals(""))
+        {
+            cartvalue = JsonSerializer.Deserialize<Cart>(jsonData).NumberOfItem;
+        } else cartvalue = 0;
+    }
+    catch(Exception ex)
+    {
+        cartvalue = 0;
+    }
 }
 
 
@@ -234,7 +251,7 @@
                                                 Hướng Dẫn Dán
                                               </a></li> -->
                                             <li>
-                                                <a id="HeaderDrawer-về-dinh-dinh" asp-page="/contact/Index"
+                                                <a id="HeaderDrawer-về-dinh-dinh" asp-page="/aboutus/Index"
                                                    class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
                                                     Về VietInk
                                                 </a>
@@ -421,7 +438,7 @@
                             <span>Hướng Dẫn Dán</span>
                           </a></li> -->
                         <li>
-                            <a id="HeaderMenu-về-dinh-dinh" asp-page="/contact/Index"
+                            <a id="HeaderMenu-về-dinh-dinh" asp-page="/aboutus/Index"
                                class="header__menu-item list-menu__item link link--text focus-inset">
                                 <span>Về VietInk</span>
                             </a>
@@ -512,7 +529,7 @@
                         </svg>
                         <span class="visually-hidden">Cart</span>
                         <div class="cart-count-bubble">
-                            <span aria-hidden="true">4</span><span class="visually-hidden">4 items</span>
+                            <span aria-hidden="true">@cartvalue</span><span class="visually-hidden">4 items</span>
                         </div>
                     </a>
                 </div>
@@ -653,7 +670,7 @@
                           </svg>
                         </div>
                         <div class="product__media media media--transparent">
-                          <img src="~/ProductImages/@Product.Image" alt=""
+                          <img src="~/ProductImages/@Product.Image" alt="@Product.ProductName"
                             class="image-magnify-none"
                             sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
                         </div>
@@ -708,9 +725,8 @@
                           </svg>
                         </div>
                         <div class="product__media media media--transparent">
-                          <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg"
-                            alt=""
-                            srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=246 246w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=493 493w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=600 600w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=713 713w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=823 823w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=990 990w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=1100 1100w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=1206 1206w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=1346 1346w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=1426 1426w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=1646 1646w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=1946 1946w"
+                            <img src="~/FeedbackImages/fb1.jpg"
+                            alt="@Product.ProductName"
                             width="1946" height="1946" loading="lazy" class="image-magnify-none"
                             sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
                         </div>
@@ -765,9 +781,8 @@
                           </svg>
                         </div>
                         <div class="product__media media media--transparent">
-                          <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg"
-                            alt=""
-                            srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=246 246w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=493 493w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=600 600w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=713 713w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=823 823w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=990 990w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=1100 1100w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=1206 1206w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=1346 1346w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=1426 1426w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=1646 1646w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=1946 1946w"
+                          <img src="~/FeedbackImages/fb2.jpg"
+                            alt="@Product.ProductName"
                             width="1946" height="1946" loading="lazy" class="image-magnify-none"
                             sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
                         </div>
@@ -822,9 +837,8 @@
                           </svg>
                         </div>
                         <div class="product__media media media--transparent">
-                          <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg"
-                            alt=""
-                            srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=246 246w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=493 493w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=600 600w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=713 713w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=823 823w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=990 990w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=1100 1100w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=1206 1206w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=1346 1346w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=1426 1426w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=1646 1646w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=1946 1946w"
+                          <img src="~/FeedbackImages/fb3.jpg"
+                            alt="@Product.ProductName"
                             width="1946" height="1946" loading="lazy" class="image-magnify-none"
                             sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
                         </div>
@@ -879,9 +893,8 @@
                           </svg>
                         </div>
                         <div class="product__media media media--transparent">
-                          <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg"
-                            alt=""
-                            srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=246 246w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=493 493w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=600 600w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=713 713w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=823 823w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=990 990w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=1100 1100w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=1206 1206w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=1346 1346w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=1426 1426w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=1646 1646w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=1946 1946w"
+                          <img src="~/FeedbackImages/fb4.jpg"
+                                                         alt="@Product.ProductName"
                             width="1946" height="1946" loading="lazy" class="image-magnify-none"
                             sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
                         </div>
@@ -936,9 +949,8 @@
                           </svg>
                         </div>
                         <div class="product__media media media--transparent">
-                          <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg"
-                            alt=""
-                            srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=246 246w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=493 493w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=600 600w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=713 713w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=823 823w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=990 990w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=1100 1100w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=1206 1206w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=1346 1346w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=1426 1426w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=1646 1646w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=1946 1946w"
+                          <img src="~/FeedbackImages/fb5.jpg"
+                            alt="@Product.ProductName"
                             width="1946" height="1946" loading="lazy" class="image-magnify-none"
                             sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
                         </div>
@@ -1000,9 +1012,8 @@
                       aria-label="Load image 1 in gallery view" aria-current="true"
                       aria-controls="GalleryViewer-template--19481095733535__main" aria-describedby="Thumbnail-template--19481095733535__main-1
 ">
-                      <img src="~/assets/ProductDetail/swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6(1).jpg"
+                      <img src="~/ProductImages/@Product.Image"
                         alt="@Product.ProductName"
-                        srcset="//dinh-dinh.com/cdn/shop/files/swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg?v=1689852129&amp;width=54 54w, //dinh-dinh.com/cdn/shop/files/swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg?v=1689852129&amp;width=74 74w, //dinh-dinh.com/cdn/shop/files/swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg?v=1689852129&amp;width=104 104w, //dinh-dinh.com/cdn/shop/files/swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg?v=1689852129&amp;width=162 162w, //dinh-dinh.com/cdn/shop/files/swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg?v=1689852129&amp;width=208 208w, //dinh-dinh.com/cdn/shop/files/swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg?v=1689852129&amp;width=324 324w, //dinh-dinh.com/cdn/shop/files/swatch6v2-2_8d3e3644-119e-4060-80e7-3013259d78c6.jpg?v=1689852129&amp;width=416 416w"
                         width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
           (min-width: 990px) calc((55.0vw - 4rem) / 4),
           (min-width: 750px) calc((100vw - 15rem) / 8),
@@ -1016,9 +1027,8 @@
                       aria-label="Load image 2 in gallery view"
                       aria-controls="GalleryViewer-template--19481095733535__main" aria-describedby="Thumbnail-template--19481095733535__main-2
 ">
-                      <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500(1).jpg"
+                      <img src="~/FeedbackImages/fb1.jpg"
                         alt="@Product.ProductName"
-                        srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=54 54w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=74 74w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=104 104w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=162 162w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=208 208w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=324 324w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_1_a159f436-b09b-48fb-8faa-ddf048dad500.jpg?v=1689852129&amp;width=416 416w"
                         width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
           (min-width: 990px) calc((55.0vw - 4rem) / 4),
           (min-width: 750px) calc((100vw - 15rem) / 8),
@@ -1032,9 +1042,8 @@
                       aria-label="Load image 3 in gallery view"
                       aria-controls="GalleryViewer-template--19481095733535__main" aria-describedby="Thumbnail-template--19481095733535__main-3
 ">
-                      <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033(1).jpg"
+                      <img src="~/FeedbackImages/fb2.jpg"
                         alt="@Product.ProductName"
-                        srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=54 54w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=74 74w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=104 104w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=162 162w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=208 208w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=324 324w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_2_1f1b66fc-51a8-4c94-9612-242446ea5033.jpg?v=1689852129&amp;width=416 416w"
                         width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
           (min-width: 990px) calc((55.0vw - 4rem) / 4),
           (min-width: 750px) calc((100vw - 15rem) / 8),
@@ -1048,9 +1057,8 @@
                       aria-label="Load image 4 in gallery view"
                       aria-controls="GalleryViewer-template--19481095733535__main" aria-describedby="Thumbnail-template--19481095733535__main-4
 ">
-                      <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef(1).jpg"
+                      <img src="~/FeedbackImages/fb3.jpg"
                         alt="@Product.ProductName"
-                        srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=54 54w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=74 74w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=104 104w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=162 162w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=208 208w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=324 324w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_3_ada99fdd-64af-4427-9201-95aab3399cef.jpg?v=1689852129&amp;width=416 416w"
                         width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
           (min-width: 990px) calc((55.0vw - 4rem) / 4),
           (min-width: 750px) calc((100vw - 15rem) / 8),
@@ -1064,9 +1072,8 @@
                       aria-label="Load image 5 in gallery view"
                       aria-controls="GalleryViewer-template--19481095733535__main" aria-describedby="Thumbnail-template--19481095733535__main-5
 ">
-                      <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53(1).jpg"
+                      <img src="~/FeedbackImages/fb4.jpg"
                         alt="@Product.ProductName"
-                        srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=54 54w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=74 74w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=104 104w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=162 162w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=208 208w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=324 324w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_4_1ff5c218-7fcc-49db-859a-466b3a356e53.jpg?v=1689852129&amp;width=416 416w"
                         width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
           (min-width: 990px) calc((55.0vw - 4rem) / 4),
           (min-width: 750px) calc((100vw - 15rem) / 8),
@@ -1080,9 +1087,8 @@
                       aria-label="Load image 6 in gallery view"
                       aria-controls="GalleryViewer-template--19481095733535__main" aria-describedby="Thumbnail-template--19481095733535__main-6
 ">
-                      <img src="~/assets/ProductDetail/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe(1).jpg"
+                      <img src="~/FeedbackImages/fb5.jpg"
                         alt="@Product.ProductName"
-                        srcset="//dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=54 54w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=74 74w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=104 104w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=162 162w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=208 208w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=324 324w, //dinh-dinh.com/cdn/shop/files/hinh_xam_dan_tam_thoi_5_52c2cdd1-1635-48db-aa27-6f0abb802bbe.jpg?v=1689852129&amp;width=416 416w"
                         width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
           (min-width: 990px) calc((55.0vw - 4rem) / 4),
           (min-width: 750px) calc((100vw - 15rem) / 8),
@@ -1469,10 +1475,13 @@
                     <p>3️⃣ Đặt úp mặt hình xăm lên da</p>
                     <p>4️⃣ Dùng khăn ướt đặt lên trên lớp giấy và giữ cố định trong 30 giây</p>
                     <p>5️⃣ Gỡ bỏ lớp giấy và tráng nhẹ hình xăm với nước</p>
-                    <p>Bạn có thể tham khảo thêm video hướng dẫn dán <a
+                    @*<p>Bạn có thể tham khảo thêm video hướng dẫn dán <a
                         href="https://dinh-dinh.com/pages/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-dan" target="_blank"
-                        title="Hướng Dẫn Dán">tại link này</a>.</p>
-
+                        title="Hướng Dẫn Dán">tại link này</a>.</p>*@
+                    <p>
+                        <iframe width="400" height="600" src="https://www.youtube.com/embed/jRdysN8Kj5s?autoplay=1">
+                        </iframe>
+                    </p>
                   </div>
                 </details>
               </div>

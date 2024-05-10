@@ -214,36 +214,17 @@
                                                                       </div>
                                                                     </div>
                                                                   </div>
-                                                                  <div
-                                                                    class="_1fragemeg _1fragemfy _1fragemgh _1fragemgy _1fragemh9 _16s97g7c _16s97g7k _16s97g718 _16s97g71g"
+                                                                  <div class="_1fragemeg _1fragemfy _1fragemgh _1fragemgy _1fragemh9 _16s97g7c _16s97g7k _16s97g718 _16s97g71g"
                                                                     style="--_16s97g78: minmax(0, 1fr); --_16s97g7g: minmax(0, 1fr); --_16s97g714: minmax(0, 1fr); --_16s97g71c: minmax(0, 1fr);">
                                                                     <div
-                                                                      class="_7ozb2u2 _1fragemgd _1fragemgu _1fragemeg _1fragemfy _10vrn9p1 _10vrn9p0 _10vrn9p4 _1fragemfh">
-                                                                      <div class="form-group">
-                                                                          <label
-                                                                          id="TextField0-label" for="TextField0"
-                                                                          class="cektnc3 _1frageme8 _1fragemlz _1fragemli _1fragemmo _1fragemmd _1fragemm8 _1fragemmm"><span
+                                                                        class="_7ozb2u2 _1fragemgd _1fragemgu _1fragemeg _1fragemfy _10vrn9p1 _10vrn9p0 _10vrn9p4 _1fragemfh">
+                                                                        <div class="">
+                                                                            <label
+                                                                            id="TextField1-label" for="TextField1"
+                                                                            class="cektnc3 _1frageme8 _1fragemlz _1fragemli _1fragemmo _1fragemmd _1fragemm8 _1fragemmm"><span
                                                                             class="cektnc9"><span
-                                                                              class="rermvf1 _1fragemlf _1fragemlh _1fragemfs">Tên (Ví dụ: Văn A)</span></span></label>
-                                                                        <div class="form-group">
-                                                                          <input asp-for="User.FirstName" style="font-size: 15px; height: 40px"
-                                                                            placeholder="Tên (Ví dụ: Văn A)"
-                                                                            type="text" 
-                                                                            class="form-control"  style="height: 40px">
-                                                                            <span asp-validation-for="User.FirstName" class="text-danger"></span>
-
-                                                                        </div>
-                                                                      </div>
-                                                                    </div>
-                                                                    <div
-                                                                      class="_7ozb2u2 _1fragemgd _1fragemgu _1fragemeg _1fragemfy _10vrn9p1 _10vrn9p0 _10vrn9p4 _1fragemfh">
-                                                                      <div class="">
-                                                                          <label
-                                                                          id="TextField1-label" for="TextField1"
-                                                                          class="cektnc3 _1frageme8 _1fragemlz _1fragemli _1fragemmo _1fragemmd _1fragemm8 _1fragemmm"><span
-                                                                            class="cektnc9"><span
-                                                                              class="rermvf1 _1fragemlf _1fragemlh _1fragemfs">Họ
-                                                                              (Ví dụ: Nguyễn)</span></span></label>
+                                                                                class="rermvf1 _1fragemlf _1fragemlh _1fragemfs">Họ
+                                                                                (Ví dụ: Nguyễn)</span></span></label>
                                                                         <div class="form-group">
                                                                         <input asp-for="User.LastName" style="font-size: 15px; height: 40px"
                                                                             placeholder="Họ (Ví dụ: Nguyễn)"
@@ -251,9 +232,27 @@
                                                                         <span asp-validation-for="User.LastName" class="text-danger"></span>
 
                                                                         </div>
-                                                                      </div>
+                                                                        </div>
                                                                     </div>
-                                                                  </div>
+                                                                    <div
+                                                                        class="_7ozb2u2 _1fragemgd _1fragemgu _1fragemeg _1fragemfy _10vrn9p1 _10vrn9p0 _10vrn9p4 _1fragemfh">
+                                                                        <div class="form-group">
+                                                                            <label
+                                                                            id="TextField0-label" for="TextField0"
+                                                                            class="cektnc3 _1frageme8 _1fragemlz _1fragemli _1fragemmo _1fragemmd _1fragemm8 _1fragemmm"><span
+                                                                            class="cektnc9"><span
+                                                                                class="rermvf1 _1fragemlf _1fragemlh _1fragemfs">Tên (Ví dụ: Văn A)</span></span></label>
+                                                                        <div class="form-group">
+                                                                            <input asp-for="User.FirstName" style="font-size: 15px; height: 40px"
+                                                                            placeholder="Tên (Ví dụ: Văn A)"
+                                                                            type="text" 
+                                                                            class="form-control"  style="height: 40px">
+                                                                            <span asp-validation-for="User.FirstName" class="text-danger"></span>
+
+                                                                        </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                                   <div
                                                                     class="_1fragemeg _1fragemfy _1fragemgh _1fragemgy _1fragemh9 _16s97g7c _16s97g7k _16s97g718 _16s97g71g"
                                                                     style="--_16s97g78: minmax(0, 1fr); --_16s97g7g: minmax(0, 1fr); --_16s97g714: minmax(0, 1fr); --_16s97g71c: minmax(0, 1fr);">
@@ -817,8 +816,17 @@
                                             </div>
                                           </div>
                                         </div>
-                                        <div role="cell" class="_1qy6ue68"><span translate="yes"
-                                            class="_19gi7yt0 _19gi7yth _1fragemg6 notranslate">₫22,000</span></div>
+                                        <div role="cell" class="_1qy6ue68">
+                                            @if (total < 100000)
+                                            {
+                                                <span translate="yes" class="_19gi7yt0 _19gi7yth _1fragemg6 notranslate"> ₫22,000</span>
+
+                                            }
+                                            else
+                                            {
+                                                <span translate="yes" class="_19gi7yt0 _19gi7yth _1fragemg6 notranslate"> ₫0,000</span>
+                                            }
+                                        </div>
                                       </div>
                                       <div role="row" class="_1x41w3p1 _1fragemfy _1fragemes _1x41w3p5">
                                         <div role="rowheader" class="_1x41w3p7"><span
@@ -828,9 +836,21 @@
                                             <div
                                               class="_5uqybw2 _1fragemfu _1fragemds _1fragemgf _1fragemgw _1fragemer _1fragemhx">
                                               <abbr translate="yes"
-                                                class="_19gi7yt0 _19gi7ytf _1fragemg5 _19gi7ytb notranslate _19gi7ytt _1fragemm4">VND</abbr><strong
-                                                translate="yes"
-                                                class="_19gi7yt0 _19gi7ytl _1fragemg8 _19gi7yt1 notranslate">₫@String.Format("{0:N0}",total + 22000)</strong>
+                                                class="_19gi7yt0 _19gi7ytf _1fragemg5 _19gi7ytb notranslate _19gi7ytt _1fragemm4">VND</abbr>
+                                                
+                                                    @if (total < 100000)
+                                                    {
+                                                        <strong translate="yes" class="_19gi7yt0 _19gi7ytl _1fragemg8 _19gi7yt1 notranslate">
+                                                            ₫@String.Format("{0:N0}",total + 22000)
+                                                        </strong>
+                                                    }
+                                                    else
+                                                    {
+                                                        <strong translate="yes" class="_19gi7yt0 _19gi7ytl _1fragemg8 _19gi7yt1 notranslate">
+                                                            ₫@String.Format("{0:N0}",total)
+                                                        </strong>
+                                                    }
+                                            
                                             </div>
                                           </div>
                                         </div>
@@ -850,9 +870,20 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                   d="m10.802 15.686 5.367-5.368a.15.15 0 0 0 .046-.109V4.144m-2.998-.95h-5.67a.16.16 0 0 0-.11.046L1.779 8.897a.154.154 0 0 0 0 .219l5.594 5.593c.06.06.158.06.218 0l5.658-5.657a.15.15 0 0 0 .045-.11v-5.67a.077.077 0 0 0-.077-.077Zm-3.06 3.749a.643.643 0 1 1-1.286 0 .643.643 0 0 1 1.286 0m-.648-.005h.01v.01h-.01z">
                                                 </path>
-                                              </svg></span><strong
-                                              class="_19gi7yt0 _19gi7yth _1fragemg6 _19gi7yt1">TOTAL SAVINGS</strong><strong translate="yes"
-                                              class="_19gi7yt0 _19gi7yth _1fragemg6 _19gi7yt1 notranslate">₫@String.Format("{0:N0}", originalTotal - total)</strong>
+                                              </svg></span>
+                                              @if( total < 100000){
+                                                  <strong class="_19gi7yt0 _19gi7yth _1fragemg6 _19gi7yt1">
+                                                      Mua thêm @(100000 - total)đ để miễn phí vận chuyển bạn nhé!
+                                                   </strong>
+                                              }else{
+                                                  <strong class="_19gi7yt0 _19gi7yth _1fragemg6 _19gi7yt1">
+                                                      TOTAL SAVINGS
+                                                   </strong>
+                                                  <strong translate="yes" class="_19gi7yt0 _19gi7yth _1fragemg6 _19gi7yt1 notranslate">
+                                                      ₫@String.Format("{0:N0}", originalTotal - total)
+                                                  </strong>
+                                              }
+                                              
                                           </div>
                                         </div>
                                       </div>
@@ -891,7 +922,6 @@
             await Html.RenderPartialAsync("_ValidationScriptsPartial");
         }
     }
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/js/toastr.min.js"></script>
 <link href="~/css/toastr.min.css" rel="stylesheet" />
 

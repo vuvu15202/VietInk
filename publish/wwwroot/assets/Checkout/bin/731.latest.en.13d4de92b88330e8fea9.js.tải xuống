@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcheckout_web=self.webpackChunkcheckout_web||[]).push([[731],{28731:(e,c,t)=>{t.d(c,{e:()=>o});var u=t(59748),n=t(1962),k=t(33066);function o(){const{locale:e,timeZone:c}=(0,k.Q)();return(0,u.useCallback)(((t,u)=>(0,n.p6)(t,e,{timeZone:c,...u})),[e,c])}}}]);

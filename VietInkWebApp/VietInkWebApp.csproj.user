@@ -10,6 +10,6 @@
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_DbContextTypeFullName>VietInkWebApp.Entities.tattooshopContext</WebStackScaffolding_DbContextTypeFullName>
-    <NameOfLastUsedPublishProfile>E:\Materials\FALL23\EXE101\abc\VietInk\VietInkWebApp\Properties\PublishProfiles\vietink-001-site1 - Web Deploy1.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>E:\Materials\FALL23\EXE101\abc\VietInk\VietInkWebApp\Properties\PublishProfiles\vietink-001-site1 - FTP.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

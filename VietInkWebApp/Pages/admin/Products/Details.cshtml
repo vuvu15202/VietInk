@@ -14,50 +14,60 @@
 <div>
     <h4>Product</h4>
     <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Product.ProductName)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Product.ProductName)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Product.CategoryName)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Product.CategoryName)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Product.QuantityPerUnit)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Product.QuantityPerUnit)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Product.UnitPrice)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Product.UnitPrice)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Product.UnitsInStock)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Product.UnitsInStock)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Product.Image)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Product.Image)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Product.Discontinued)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Product.Discontinued)
-        </dd>
-    </dl>
+    <div class="row">
+        <div class="col-sm-8">
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Product.ProductName)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Product.ProductName)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Product.CategoryName)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Product.CategoryName)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Product.QuantityPerUnit)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Product.QuantityPerUnit)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Product.UnitPrice)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Product.UnitPrice)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Product.UnitsInStock)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Product.UnitsInStock)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Product.Image)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Product.Image)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Product.Discontinued)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Product.Discontinued)
+                </dd>
+            </dl>
+        </div>
+        <div class="col-sm-4">
+            <div>
+                <img class="" style="max-width: 80%; border: 2px solid red;" alt="@(Model.Product.ProductName)" src="/ProductImages/@(Model.Product.Image)" />
+            </div>
+        </div>
+    </div>
+    
 </div>
 <div>
     <a asp-page="./Edit" asp-route-id="@Model.Product?.ProductId">Edit</a> |

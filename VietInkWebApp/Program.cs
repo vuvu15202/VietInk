@@ -18,8 +18,8 @@ namespace VietInkWebApp
             builder.Services.AddDbContext<TattooshopContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB")));
 
-                        builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<TattooshopContext>();
+                builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            .AddEntityFrameworkStores<TattooshopContext>();
 
             //session
             builder.Services.AddSession(options => {
@@ -47,7 +47,7 @@ namespace VietInkWebApp
             app.UseStaticFiles();
 
             app.UseRouting();
-                        app.UseAuthentication();;
+            app.UseAuthentication();;
 
             app.UseAuthorization();
 
